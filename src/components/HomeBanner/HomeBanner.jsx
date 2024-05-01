@@ -90,6 +90,11 @@ const HomeBanner = () => {
     return (
         <HomeBannerWrapperStyled style={{ background: `url(${assets.propertyDetails})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center" }}>
             <Container fixed>
+                <Box className="homeBannerLogo">
+                    <figure>
+                        <img src={assets.logo} alt="" />
+                    </figure>
+                </Box>
                 <Box className="homeBannerContent">
                     <Typography variant="h1">
                         WELCOME TO <br />

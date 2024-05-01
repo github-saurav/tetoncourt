@@ -2,14 +2,14 @@ import { styled } from "@mui/material/styles";
 import {Box} from "@mui/material"
 import { primaryColors } from "../../mui-theme/_muiPalette";
 export const HomeBannerWrapperStyled =  styled(Box)`
-padding: 200px 0;
+padding: 100px 0 150px;
 position: relative;
 z-index: 1;
 @media (max-width: 1199px) {
-    padding: 120px 0;
+    padding: 80px 0 120px;
 }
 @media (max-width: 899px) {
-    padding: 80px 0;
+    padding: 50px 0 80px;
 }
 &::before{
     position: absolute;
@@ -133,6 +133,18 @@ z-index: 1;
             border-color: ${primaryColors.white};
         } */
     }
+
+   
     
 }
+.homeBannerLogo{
+        figure{
+            max-width: 400px;
+            margin: 0 auto 30px;
+            display: flex;
+            img{
+                width: 100%;
+            }
+        }
+    }
 `
