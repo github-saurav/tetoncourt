@@ -92,7 +92,7 @@ const HomeBanner = () => {
             <Container fixed>
                 <Box className="homeBannerLogo">
                     <figure>
-                        <img src={assets.logo} alt="" />
+                        <img src={assets.tetonCircleLogo} alt="" />
                     </figure>
                 </Box>
                 <Box className="homeBannerContent">

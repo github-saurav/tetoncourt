@@ -44,6 +44,7 @@ export const assets = {
     activityBg: "/assets/images/activityBg.jpg",
     contactUsBanner: "/assets/images/contactUsBanner.webp",
     termsConditionsBanner: "/assets/images/termsConditionsBanner.webp",
+    tetonCircleLogo: "/assets/images/teton-circle.png",
 
 }
 

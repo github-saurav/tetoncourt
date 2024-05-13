@@ -139,7 +139,7 @@ z-index: 1;
 }
 .homeBannerLogo{
         figure{
-            max-width: 400px;
+            max-width: 160px;
             margin: 0 auto 30px;
             display: flex;
             img{
