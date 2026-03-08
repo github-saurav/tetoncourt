@@ -2,18 +2,16 @@
   "name": "tetoncourt",
   "version": "0.1.0",
   "private": true,
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
- "homepage": ".",
-  "bugs": { 
+  "description": "This project was bootstrapped with Create React App.",
+  "homepage": ".",
+  "bugs": {
     "url": "https://github.com/github-saurav/tetoncourt/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/github-saurav/tetoncourt.git"
   },
-  "license": "ISC",
-  "author": "",
-  "main": "index.js",
+  "license": "ISC", 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -26,9 +24,6 @@
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "jquery": "^3.7.1",
     "jquery-ui": "^1.13.2",
@@ -47,21 +42,10 @@
     "@mui/styled-engine": "@mui/styled-engine-sc"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
