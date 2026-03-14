@@ -14,7 +14,10 @@ const HomeMotelInfo = () => {
                         TETON COURT MOTEL
                     </Typography>
                 </Box>
-                <Typography variant="body1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore autem quod rerum laboriosam. Aliquam ullam voluptatum alias? Recusandae sed dolore consequatur architecto praesentium assumenda illo cupiditate ipsum dolor corrupti. Cum!</Typography>
+                <Typography variant="body1">
+A locally owned, seasonal motel open mid-May through early October.
+We serve hikers, hunters, anglers, road-trippers, and Yellowstone visitors looking for clean rooms, fair pricing, and genuine Wyoming hospitality.
+Simple. Dependable. Western.</Typography>
                 <CustomButton onClick={() => navigate('/your-stay')}>LEARN MORE</CustomButton>
             </Box>
         </Container>

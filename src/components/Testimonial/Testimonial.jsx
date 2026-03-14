@@ -17,20 +17,28 @@ const Testimonial = () => {
     };
     const sliderData =[
         {
-            testimonialText: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis optio nulla dolor, veritatis hic iure doloribus fugiat? Minima quidem quia assumenda dolores! Cum modi blanditiis neque molestias voluptas et veniam?",
-            testimonialName: "John Smith",
+            testimonialText: "“This has become our go-to place to stay whenever we are in Pinedale.“",
+            testimonialName: "Hensley",
         },
         {
-            testimonialText: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe voluptatibus cumque, reiciendis a quasi totam eum, repellendus asperiores nesciunt repellat quisquam similique magnam deserunt architecto facere ex dicta magni officia!",
-            testimonialName: "Sean Paul",
+            testimonialText: "“Really, REALLY comfortable beds and bedding … the kitchenette was great.“",
+            testimonialName: "Amy",
         },
         {
-            testimonialText: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, sapiente autem quam similique sed ex placeat optio delectus obcaecati deleniti corrupti explicabo modi nam maiores eligendi doloribus molestiae laborum eius.",
-            testimonialName: "Peter Parker",
+            testimonialText: "“Charming, clean, friendly, safe. I would gladly stay again.“",
+            testimonialName: "Debbie",
         },
         {
-            testimonialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum porro possimus odit, ut, libero nam nostrum odio fugiat doloremque ex dicta rem tenetur numquam minima laboriosam iusto illo illum architecto!",
-            testimonialName: "Bruce Wayne",
+            testimonialText: "“Excellent location. Close to shops and restaurants.“",
+            testimonialName: "Andrea",
+        },
+        {
+            testimonialText: "“Perfect small motel. Very clean and comfortable.“",
+            testimonialName: "Catherine",
+        },
+        {
+            testimonialText: "“Good value for the money.“",
+            testimonialName: "Verified traveler",
         },
     ]
 

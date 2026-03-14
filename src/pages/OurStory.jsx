@@ -21,7 +21,7 @@ const OurStory = () => {
         <Box className="ourStory cmn_gap">
             <Container fixed>
                 <Box className="cmn_head">
-                    <Typography variant='h2'>Lorem Ipsum.</Typography>
+                    <Typography variant='h2'>Our Story</Typography>
                 </Box>
                 <Box className="ourStoryConent">
                     <figure className='ourStoryImg'>
@@ -29,28 +29,39 @@ const OurStory = () => {
                     </figure>
              
                         <Typography variant='body1'>
-                            Our story with the Jackalope Motor Lodge is grounded in our love for creating spaces where people <b>feel cared for, have fun, and find rest</b>.    
+                           Teton Court Motel – Pinedale, Wyoming
+In Pinedale, the wind still carries the feeling of the old West. Mornings break quietly, the peaks of the Wind River Range catch first light, and life moves with a steady independence.
+Teton Court Motel has stood on this ground for generations.    
                         </Typography> 
 
                         <Typography variant='body1'>
-                        We didnt set out in life dreaming of owning a motel to do all of that. However, sometimes life weaves together pieces of your story into an adventure that goes beyond your own imagination. And that is exactly what happened with us and the Jackalope. 
+                        The original cabin on the property dates to 1908, built when Pinedale was still young, and Wyoming was shaping its identity. That cabin still remains, and today it has been restored into a guest room we proudly rent to visitors who want to experience a piece of early 20th-century Wyoming.
+The rest of the motel was founded in 1947, in the post-war era when America embraced the automobile and families headed west toward places like Yellowstone National Park. Roadside motels like Teton Court were built for that spirit of freedom — practical, welcoming, and affordable. That spirit still defines us today.
                         </Typography>
                         <Typography variant='h4'>
-                            how we landed here…
+                            About Me
                         </Typography>
                         <Typography variant='body1'>
-                        We had lived an amazing big city life by the sea for a full decade, and our journey had been preparing us for some kind of change through career shifts, a global pandemic, the addition of a third little boy to our family, and a deep in your gut honest feeling. In the summer of 2020, our new friends had moved to Pinedale and invited us out to visit. After a short trip to see them, we quickly fell in love with the openness and kindness of the people, the beautiful scenery, and the slower pace of life that Wyoming provides. At one point in our visit we were driving by this vacant motel property and we noticed it was for sale. That was the first seed of curiosity planted where we started to connect the dots of our story to the idea that we could maybe just pull off turning over an older motel. 
+                        Hi, I’m Chris Harris. I have owned the Teton Court Motel since 2016.
+I’ve been part of the hospitality industry since the 1980s and have owned and operated hotels since 2006. I launched my first property in the Black Hills of South Dakota while completing my Ph.D. at the University of Iowa. What began as a practical endeavor became a passion.
                         </Typography>
                         <Typography variant='body1'>
-                        We returned to our big city life, kept talking with friends and family through all of the ideas and what-ifs, and simply stayed stubbornly committed to figuring out how to purchase and revive this little corner of Pinedale. Well, our stubbornness paid off because here we are in Pinedale building something brand new through the birth of the Jackalope Motor Lodge.
+                       Today, I also remain a tenured university professor of Computer Science in Colorado, teaching during the winter and spring when Pinedale’s busy season slows. My academic work focuses on artificial intelligence, machine learning, and emerging technologies like blockchain.
+Travel has shaped my vision as much as academia has. I’ve personally visited 145 countries and traveled to all 7 continents, staying everywhere from modest roadside inns to world-class hotels. What I’ve learned is this: guests remember how a place makes them feel — clean rooms. Fair pricing. Quiet nights. A genuine welcome.
                         </Typography>
                         <Typography variant='body1'>
-                        Some tried and true values of ours are that people are what matter most, and connecting through our stories is where the best of life happens. 
+                        That’s the standard we work to uphold.
+Teton Court is also a family effort. During summers, my children devote much of their break to helping run the motel, greeting guests, assisting with upkeep, and learning firsthand the value of responsibility and service. This isn’t a distant investment. It’s something we live every day.
+When I’m on property, I enjoy personally welcoming guests. If you’d like to talk about travel, technology, higher education, or the beauty of the Wind River Mountains, I’m always happy to visit in the evenings. Some of the best conversations happen after a long day on the road.
                         </Typography>
+                        <Typography variant='h4'>- <i>Carrying the Tradition Forward</i></Typography>
                         <Typography variant='body1'>
-                        As far as stories go, we’re almost past chapter one of our story. We purchased the Jackalope Motor Lodge on June 1st, 2021, and started renovations the very next day. The first round of renovations in that initial summer of 2021 looked like taking all of the rooms up to a baseline level - new beds, new paint, and a super deep scrubbing. In the winter of 2022 we moved deeper into the renovations by slowly taking each room offline and crafting it into what has now become the JML standard. As we head into 2023 and beyond we are continuing to dream about what this place can and will become. Each month we move closer to our final vision for what this property will become and we are so excited to unveil new amenities and upgrades regularly. We are certain that each time you visit you will find something fresh and new in this space! We would love for you to come and see what we are up to here at the Jack and experience the charm of this little town of Pinedale. 
+                        Teton Court isn’t a corporate chain. It’s an independent Wyoming motel owned by a family that believes places like this still matter.
+Our goal isn’t flash; it’s comfort, reliability, and a stay you can trust. Whether you’re exploring the Wind River Range, passing through on a long drive, or returning to Pinedale year after year, we’re honored to host you.
+This ground has held stories since 1908.
+We’re grateful to continue the next chapter and to welcome you into it.
                         </Typography>
-                        <Typography variant='h4'>- <i>Lorem</i></Typography>
+                        
                     
                 </Box>
             </Container>

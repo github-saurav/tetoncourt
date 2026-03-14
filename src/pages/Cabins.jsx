@@ -15,32 +15,34 @@ import { Helmet, HelmetProvider } from 'react-helmet-async'
 const cabinData = [
   {
     title: "Deluxe King",
-    subtitle: "1 King Bed",
-    persons: "The Deluxe King rooms sleep 1-2 adults",
+    subtitle: "1 King Bed | 1–2 Guests",
+    persons: "The Deluxe King rooms sleep 1-2 adults ",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
       {
         amenities: "A work desk or comfortable reading chair",
       },
       {
-        amenities: "one comfortable pillow-top king bed",
+        amenities: "One comfortable pillow-top king bed",
       },
       {
-        amenities: "a fridge and microwave",
+        amenities: "Mini-fridge",
       },
       {
-        amenities: "a television with Amazon Firestick",
+        amenities: "Microwave",
       },
       {
-        amenities: "WiFi",
+        amenities: "Keurig coffee maker with K-cups",
       },
       {
-        amenities: "a Keurig coffee maker with K-cups",
+        amenities: "43\" TV with streaming services (Amazon Firestick) and live TV",
       },
       {
-        amenities: "bathrooms with shower-tub combinations",
+        amenities: "Enjoy Wi-Fi",
       },
-
+      {
+        amenities: "Private bathroom with shower-tub combination",
+      },
     ],
     roomSize: "Rooms are approximately 190 sq. ft. One room offers a pull-out loveseat-sized sofa.",
     cabinImageSliderList: [
@@ -54,7 +56,7 @@ const cabinData = [
   },
   {
     title: "Deluxe Double",
-    subtitle: "2 Double Beds",
+    subtitle: "2 Double Beds | Up to 4 Guests",
     persons: "The Deluxe Double sleeps 1-4 adults",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
@@ -80,7 +82,7 @@ const cabinData = [
         amenities: "WiFi",
       },
       {
-        amenities: "a Keurig coffee maker with K-cups",
+        amenities: "Keurig coffee maker",
       },
       {
         amenities: "full bathroom with tub and shower",
@@ -99,7 +101,7 @@ const cabinData = [
   },
   {
     title: "AirCon Deluxe Double",
-    subtitle: "2 Double Beds",
+    subtitle: "2 Double Beds | Climate-Controlled",
     persons: "Similar to our Deluxe Double room, but with Air Conditioning. The rooms sleep 1-4 adults",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
@@ -119,7 +121,7 @@ const cabinData = [
         amenities: "kitchenette",
       },
       {
-        amenities: "television with Amazon FireStick",
+        amenities: '43" TV with streaming services and live TV',
       },
       {
         amenities: "WiFi",
@@ -144,15 +146,12 @@ const cabinData = [
   },
   {
     title: "Superior Double",
-    subtitle: "2 Double Beds",
+    subtitle: "2 Double Beds | Extra Space",
     persons: "The Superior Doubles are our largest rooms. These rooms sleep 1-4 (some rooms sleep more than 4)",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
       {
-        amenities: "A work desk or comfortable reading chair",
-      },
-      {
-        amenities: "two comfortable double/full sized beds",
+        amenities: "Features two double beds",
       },
       {
         amenities: "dining table",
@@ -164,22 +163,22 @@ const cabinData = [
         amenities: "microwave",
       },
       {
-        amenities: "kitchenette",
+        amenities: "kitchenette area",
       },
       {
-        amenities: "television with Amazon FireStick",
+        amenities: '43" TV with streaming services and live TV',
       },
       {
         amenities: "WiFi",
       },
       {
-        amenities: "a Keurig coffee maker with K-cups",
+        amenities: "Keurig coffee maker",
       },
       {
         amenities: "Some rooms have showers and others have shower-tub combinations",
       },
       {
-        amenities: "Some have a separate sofa or love seat",
+        amenities: "Select rooms include a sofa or loveseat",
       },
 
     ],
@@ -195,12 +194,12 @@ const cabinData = [
   },
   {
     title: "Family Cabin",
-    subtitle: "2 Double Beds",
+    subtitle: "Historic Cabin | Spacious & Unique",
     persons: "The Family Cabin are our largest rooms. These rooms sleep 1-4 (some rooms sleep more than 4)",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
       {
-        amenities: "A work desk or comfortable reading chair",
+        amenities: "Includes comfortable bedding",
       },
       {
         amenities: "two comfortable double/full sized beds",
@@ -218,10 +217,16 @@ const cabinData = [
         amenities: "kitchenette",
       },
       {
-        amenities: "television with Amazon FireStick",
+        amenities: '43" TV with streaming services and live TV',
       },
       {
         amenities: "WiFi",
+      },
+      {
+        amenities: "private bath",
+      },
+      {
+        amenities: "air conditioning",
       },
       {
         amenities: "a Keurig coffee maker with K-cups",

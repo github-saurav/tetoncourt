@@ -11,26 +11,26 @@ import { HomeReasonToBookWrapperStyled } from '../../styles/styledComponents/Hom
 export const ReasonToBookData = [
     {
         icon: <ShoppingIcon/>,
-        title: "SHOPPING",
-        text: "The best shopping within walking distance in town!",
+        title: "Best Rate, No Middleman",
+        text: "When you book directly with us, you avoid third-party markups and receive straightforward pricing.",
         hasImage: null,
     },
     {
         icon: <DiningIcon/>,
-        title: "DINING",
-        text: "The best restaurants within walking distance!",
+        title: "Real-Time Availability",
+        text: "Our website reflects the most accurate room availability.No delays. No mismatched inventory.",
         hasImage: assets.diningBg,
     },
     {
         icon: <CameraIcon/>,
-        title: "BEAUTIFUL VIEWS",
-        text: "Enjoy the views of the roaming deer and the Medina River!",
+        title: "Direct Communication",
+        text: "Need early check-in? Arriving after a long hike? Traveling with a pet? Booking direct means you can speak with us directly, before and during your stay.",
         hasImage: assets.beautifulViewBg,
     },
     {
         icon: <BestPriceIcon/>,
-        title: "BEST PRICE GUARANTEE",
-        text: "Book on this website to get the best deal!",
+        title: "Flexible Assistance",
+        text: "Changes happen, especially during mountain travel. Direct bookings allow us to assist more efficiently with adjustments, same-day reservations, and special requests.",
         hasImage: null,
     }
 ]
@@ -41,9 +41,12 @@ const HomeReasonToBook = () => {
         <Container fixed>
             <Box className="cmn_head">
                 <Typography variant="h2">
-                    BOOK ONLINE ON THIS WEBSITE
+                    Book Direct. Stay Confident.
                 </Typography>
-                <Typography variant="h3">4 reasons why to choose our motel in Bandera, Texas</Typography>
+                <Typography variant="h3">The simplest way to secure your stay in Pinedale.
+
+Booking through our website or by phone ensures the most accurate availability and the best overall experience.
+</Typography>
             </Box>
 
             <Box className="bookReason">

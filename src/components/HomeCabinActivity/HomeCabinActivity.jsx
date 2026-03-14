@@ -12,7 +12,7 @@ const HomeCabinActivity = () => {
         <Grid container columnSpacing={2.5} rowSpacing={4}>
             <Grid item md={6} xs={12} data-aos="fade-right">
                 <Box className="homeCabinActivityCard" style={{backgroundImage: `url(${assets.homeCabinActivityCabin})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
-                    <Typography variant="h2">CABINS</Typography>
+                    <Typography variant="h2">Our Rooms</Typography>
                     <CustomButton buttonColor="black"   onClick={() => navigate('/our-rooms')}>
                         LEARN MORE
                     </CustomButton>
@@ -20,7 +20,7 @@ const HomeCabinActivity = () => {
             </Grid>
             <Grid item md={6} xs={12} data-aos="fade-left">
                 <Box className="homeCabinActivityCard" style={{backgroundImage: `url(${assets.homeCabinActivityActivities})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
-                    <Typography variant="h2">ACTIVITIES</Typography >
+                    <Typography variant="h2">Adventures</Typography >
                     <CustomButton buttonColor="black"  onClick={() => navigate('/local-adventures')} >
                         LEARN MORE
                     </CustomButton>

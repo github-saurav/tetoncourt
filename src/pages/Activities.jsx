@@ -13,10 +13,10 @@ import { useNavigate } from 'react-router-dom'
 export const activityData = [
   {
     img: assets.activitiy1,
-    title: "HORSEBACK RIDING",
+    title: "Wind River Range Adventures",
     textContent: [
       {
-        eachText: "Saddle up and explore the city of Bandera the best way possible, on a horse!  Whether you're an experienced equestrian, or want to just ride for the first time, Outlaw Outfitters has what you're looking for.  They will take you down the scenic Medina River and look at the wildlife, or ride into town, and grab a refreshment at one of the saloons.  Or, get out of the city and go back in time to enjoy 5400 acres of remote, primitive, quiet hills with spectacular views for miles.  Ride with the best to experience the beauty of the Bandera Texas Hill Country!",
+        eachText: "If you came for the mountains, you’re in the right place. Pinedale is one of the best jumping-off points for hiking, backpacking, photography, and high-alpine exploration. Day hikes to lakes and overlooks - Backpacking deeper into the Winds - Easy access to Elkhart Park and other trailheads",
       },
       {
         eachText: "For more information on Outlaw Outfitters, click on the Learn More tab below to visit their website."
@@ -27,10 +27,10 @@ export const activityData = [
   },
   {
     img: assets.activitiy2,
-    title: "SCENIC RIDES",
+    title: "Fremont Lake and on-the-water days",
     textContent: [
       {
-        eachText: "Always one of the top-rated drives in North America commonly referred to as the Three Sisters or 3 Twisted Sisters, Highways 335, 336, and 337 has its beginnings in the town of Medina.  This 100-mile loop is, without a doubt, among the best, most challenging motorcycle rides in the state. The route follows canyons and climbs jagged, steep hills; the roads offer many tight, twisty curves with shear drop offs alongside and not much in the way of guardrails. In one 15-mile section, there are approximately 65 curves! Even the most experienced riders will squeeze that handle just a bit tighter.",
+        eachText: "Just outside town, Fremont Lake is a local favorite for scenic shoreline time, boating, paddling, and sunset cruising. It’s the kind of place that makes you slow down (in a good way). Perfect for a relaxed half-day or full-day lake outing.",
       },
     ],
     linkPath: "/local-adventures/attractions",
@@ -38,10 +38,10 @@ export const activityData = [
   },
   {
     img: assets.activitiy3,
-    title: "SHOPPING",
+    title: "Green River Lakes & Squaretop Mountain",
     textContent: [
       {
-        eachText: "Whether you're looking to shop for a new pair of boots, t-shirts, furniture, or crafts made from a Texas artisan, you will be sure to find it in Bandera.  One Texas store stands out from the crowd, the Spirits of Texas shop.  A quick 1 minute walk from your cabin, this little Texas shop has everything you might be looking for, and it's probably been made in Texas.  From Kinky Friedman's Man in Black Tequila, or bubbling soda's, this little shop has everything you might need.",
+        eachText: "One of the most iconic views in Wyoming. About 52 miles north of town, this scenic drive leads to hiking, canoeing, fishing, and photography with dramatic mountain backdrops. A must-see if you have the time.",
       },
       {
         eachText: "For more information on the Spirit of Texas, click on the Learn More tab below to visit their website.",
@@ -52,10 +52,10 @@ export const activityData = [
   },
   {
     img: assets.activitiy4,
-    title: "DINING",
+    title: "Fishing the Green & New Fork Rivers",
     textContent: [
       {
-        eachText: "With many restaurants to choose from within walking distance of your cabin, TJ’s @ The Old Forge Restaurant and Bar stands out as one that is a must try while in Bandera.  An American full-service restaurant and bar, TJ’s@ The Old Forge atmosphere is modern western. The restaurant is 5,400 square feet upstairs and downstairs with a full bar on each floor and covered outside seating. TJ’s has an 80″ projection TV and several big screen TVs upstairs and downstairs to watch your favorite sports event.  The menu includes steaks, seafood, burgers, sandwiches, pastas and other delicious entrees, appetizers and desserts.  They are a perfect venue for events such as wedding receptions, business meetings, reunions, etc.",
+        eachText: "Pinedale sits in prime fishing country. Anglers come for the Green River, New Fork River, Fremont Lake, and nearby alpine waters. Early mornings, clean water, big skies.",
       },
       {
         eachText: "For more information on TJ's @ The Old Forge, click on the Learn More tab below to visit their website.",
@@ -66,10 +66,10 @@ export const activityData = [
   },
   {
     img: assets.activitiy5,
-    title: "NIGHTLIFE",
+    title: "Wildlife & Path of the Pronghorn",
     textContent: [
       {
-        eachText: "WIth all the honky tonk bars and dance halls you can boot scootin' boogie to, one bar stands out from the rest.  The 11th Street Cowboy Bar, the biggest little bar in Texas, is a quick 1 minute walk from your cabin.  With dancing and live music, you never know what famous musician is going to be playing that night.  Join them on Wednesday nights, for Steak Night.  Just bring your own meat, and grill it on their Texas sized BBQ grills, they provide all the fixings.",
+        eachText: "Learn about one of North America’s most remarkable wildlife migration corridors at Trappers Point. Seasonal viewing opportunities make this a unique stop.",
       },
       {
         eachText: "For more information on 11th Street Cowboy Bar, click on the Learn More tab below to visit their website.",
@@ -78,6 +78,39 @@ export const activityData = [
     linkPath: "/local-adventures/attractions",
     aos: "normal",
   },
+  {
+    img: assets.activitiy6,
+    title: "Museum of the Mountain Man",
+    textContent: [
+      {
+        eachText: "A genuinely excellent local museum exploring fur trade history and frontier life. A great addition to any itinerary — especially on a cooler or rainy day.",
+      }
+    ],
+    linkPath: "/local-adventures/attractions",
+    aos: "reverse",
+  },
+  {
+    img: assets.activitiy7,
+    title: "Golf, Recreation & Aquatic Center",
+    textContent: [
+      {
+        eachText: "Play a round at Rendezvous Meadows Golf Course with sweeping mountain views, or enjoy the Pinedale Aquatic Center for swimming, fitness, climbing walls, and family recreation.",
+      }
+    ],
+    linkPath: "/local-adventures/attractions",
+    aos: "normal",
+  },
+  {
+    img: assets.activitiy8,
+    title: "Restaurants, Bars & Downtown Strolls",
+    textContent: [
+      {
+        eachText: "Enjoy local restaurants, casual bars, coffee shops, top-notch parks along Pine Creek, and a hometown grocery store — all within easy reach. Pinedale’s Main Street offers relaxed evenings and small-town hospitality.",
+      }
+    ],
+    linkPath: "/local-adventures/attractions",
+    aos: "reverse",
+  }
 ]
 
 const TITLE = 'Teton Court Motel - Local Adventures';
@@ -91,7 +124,8 @@ const Activities = () => {
         </Helmet>
       </HelmetProvider>
       <ActivitiesWrapperStyled style={{ background: `url(${assets.activityBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
-        <CommonInnerBanner innerBannerImage={assets.activitiyBanner} innerBannerText="THINGS TO DO IN BANDERA, TEXAS" />
+        <CommonInnerBanner innerBannerImage={assets.activitiyBanner} innerBannerText="Things to Do in Pinedale, Wyoming" innerBannerContent="Your basecamp for the Wind River Range, lakes, wildlife, and real Wyoming nights Pinedale is small, friendly, and surrounded by big country. Whether you’re here for the Wind River Range, Fremont Lake, fishing, wildlife, or a quiet reset, this town delivers. Use the ideas below to build your perfect day,  then come back to a clean room and a quiet night at Teton Court." BannerbuttonText="Book Your Stay"
+  BannerbuttonLink="/book-now"/>
         <Box className="activityWrap">
           {
             activityData.map((eachData, index) => (

@@ -19,10 +19,22 @@ export const propDetailsFeatureData = [
     aos: "normal",
     textContent: [
       {
-        eachText: "The Teton Court Motel is your clean, comfortable, affordable lodging option in Pinedale, Wyoming. A refurbished hotel near the center of Pinedale and just minutes from the Bridger Wilderness, the Wind River Mountain Range, and visiting the Museum of the Mountain Man. Other nearby options include exploring or boating on Fremont Lake, Green River Lake and Island Lake, fishing the Green River, or relaxing in the Granite Hot Springs.",
+        eachText: "Minutes from Wind River Range trailheads",
       },
       {
-        eachText: "We are located on a quiet street near the center of Pinedale, within walking distance of restaurants, supermarkets, and bars. We are one block off US 191 as you go to/from Jackson (1.5 hours) and the Grand Teton National Park (2 hours) and south entrance of Yellowstone National Park (2.5 hours).",
+        eachText: "- Easy access to Elkhart Park",
+      },
+      {
+        eachText: "Near Fremont Lake, Green River, and New Fork River",
+      },
+      {
+        eachText: "A scenic, less expensive, alternative base for Yellowstone and Grand Teton National Parks",
+      },
+      {
+        eachText: "Walking distance to the bike shop, grocery store, restaurants, and local bars",
+      },
+      {
+        eachText: "You won’t need to drive across town for dinner or supplies. Everything is close (mountains included).",
       }
     ]
   },
@@ -32,10 +44,16 @@ export const propDetailsFeatureData = [
     aos: "reverse",
     textContent: [
       {
-        eachText: "Each of our 17 rooms features private entry direct from the parking lot, private bathrooms, microwaves, small fridges, flat-screen TVs and complimentary WiFi. Eight of our rooms feature kitchenettes. Each room has been completely remodeled, with new carpet, mattresses, furniture, and bedding.",
+        eachText: "Comfort after a day outdoors.",
       },
       {
-        eachText: "The Teton Court Motel is ideal for those who seek a clean and comfortable room at an affordable price.",
+        eachText: 'Each room is designed for rest and simplicity. Expect clean spaces, comfortable beds, Wi-Fi, a mini-fridge and microwave, Keurig coffee maker, and a 43" TV with streaming services and live TV.',
+      },
+      {
+        eachText: 'From our Deluxe King to our more spacious Superior Doubles and historic cabin-style accommodations, every stay offers practical comfort without resort pricing.',
+      },
+      {
+        eachText: 'Simple. Quiet. Reliable.',
       }
     ],
     linkPath: '/our-rooms',
@@ -47,8 +65,20 @@ export const propDetailsFeatureData = [
     aos: "normal",
     textContent: [
       {
-        eachText: "The Teton Court Motel offers clean and comfortable rooms near the heart of Pinedale. When booking through our website, you can obtain a confirmed booking with a 5% discount (compared with rates found on websites such as Booking.com and Expedia), easier (and more generous) cancellation policies, better guidance to get the best available room for your needs, and for those bringing their furry friends, a faster confirmation that a pet-friendly room is available.",
+        eachText: "Direct communication for early check-in or trail timing",
       },
+      {
+        eachText: "The best available rate Real-time room availability",
+      },
+      {
+        eachText: "- Direct communication for early check-in or trail timing",
+      },
+      {
+        eachText: "Faster assistance with changes or last-minute stays",
+      },
+      {
+        eachText: "Mountain plans can shift — booking direct keeps things flexible.",
+      }
     ],
     bookNow : true,
   },
@@ -56,10 +86,22 @@ export const propDetailsFeatureData = [
 
 export const propertyAmenities = [
   {
-    eachAmenities: "Renovated Rooms",
+    eachAmenities: "Complimentary Wi-Fi",
   },
   {
-    eachAmenities: "Wireless high-speed internet (WiFi)",
+    eachAmenities: "Free on-site parking",
+  },
+  {
+    eachAmenities: "Evening laundry service (charged per load)",
+  },
+  {
+    eachAmenities: "Select pet-friendly rooms",
+  },
+  {
+    eachAmenities: "Walking access to downtown",
+  },
+  {
+    eachAmenities: "Seasonal operation (mid-May through early October)",
   },
   {
     eachAmenities: "Comfortable and Clean",
@@ -90,11 +132,11 @@ const PropertyDetails = () => {
         <Box className="motelInfo cmn_gap">
           <Container fixed>
             <Box className="cmn_head">
-              <Typography variant='h2'>Motel Info Title</Typography>
+              <Typography variant='h2'>A Comfortable Base in Pinedale</Typography>
             </Box>
             <Typography variant='body1'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, a est adipisci esse laborum molestiae, pariatur laboriosam, vel cumque reiciendis tempora. Necessitatibus soluta vero perspiciatis, veniam doloremque ab debitis esse.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quam aperiam, quidem, reprehenderit quisquam consequatur fugit sunt asperiores quas nulla delectus dolorum quasi? Ut, facere mollitia. Unde ipsum ad architecto.
+             Teton Court Motel offers simple, dependable lodging in the heart of Pinedale — just minutes from the Wind River Range and within walking distance of downtown.
+              Whether you're hiking the Winds, fishing the Green River, visiting Yellowstone, or passing through on a scenic drive, our goal is straightforward: a clean room, a quiet night, and a stay that feels easy.
             </Typography>
           </Container>
         </Box>
@@ -162,7 +204,9 @@ const PropertyDetails = () => {
                   <Box className="cmn_head" textAlign="left">
                     <Typography variant='h2'>OUR GROUND</Typography>
                   </Box>
-                  <Typography variant='body1'>Built on 1.5 acres of beautiful land, The Vaquero Motel features  serene views of the Medina River. Take a swim or float the Medina River with friends while taking in the scenic views of the Texas Hill Country.  With various walking trails along the river, find a picnic spot, and enjoy all the wildlife, not to mention all the horseback riding trails to explore.  Or if you rode in on a steel horse, begin the 100 mile journey of the famous Twisted Sisters Ride from Bandera.  There's something for everyone during your stay. We're here to serve you and make it the relaxing experience you deserve.</Typography>
+                  <Typography variant='body1'>
+                    Pinedale is still real Wyoming — wide skies, working ranches, mountain air, and a pace that feels unhurried. Here, you’re never far from the Wind River Range, alpine lakes, and open trails. 
+                    Downtown offers local restaurants, a hometown grocery store, a trusted bike shop, and friendly faces who know the land. It’s a place where mornings start early, sunsets linger, and adventure begins just beyond Pine Street.</Typography>
                 </Box>
               </Grid>
             </Grid>
@@ -203,8 +247,7 @@ const PropertyDetails = () => {
               </Box>
               <Box className="bookingRulesInnerText">
                 <Typography variant='body1'>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae rem dolorem omnis quisquam animi, deserunt iure deleniti veritatis beatae soluta fugit pariatur quaerat, voluptatum maiores natus! Fugit nam repudiandae non!
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quos dolores aut deleniti aliquam rem, quia consequuntur veniam! In nisi vel alias esse illum repellat aliquam consequuntur id architecto aspernatur?
+                  We operate during a short, high-demand season. Advance reservations are recommended during peak summer and CDT hiking windows. Last-minute travelers are always welcome — call us directly for fastest availability. Clear policies, fair pricing, and straightforward communication.
                 </Typography>
               </Box>
               <CustomButton buttonColor="white" onClick={() => navigate('/terms-conditions')}>

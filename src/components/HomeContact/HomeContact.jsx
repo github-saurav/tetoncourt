@@ -21,7 +21,7 @@ const HomeContact = () => {
                         <Typography variant='h2'>Contact Us</Typography>
                     </Box>
                     <Typography variant='body1'>
-                        This historic rustic motel located in the heart of the "Cowboy Capital Of The World", is truly one of a kind. 
+                        Trail timing, pets, late arrival? Let’s sort it out before you arrive. 
                     </Typography>
                     <CustomButton onClick={() => navigate("/contact-us")}>
                         CONNECT WITH US
