@@ -13,25 +13,25 @@ export const ReasonToBookData = [
         icon: <ShoppingIcon/>,
         title: "Best Rate, No Middleman",
         text: "When you book directly with us, you avoid third-party markups and receive straightforward pricing.",
-        hasImage: null,
+        hasImage: assets.bestrateBg,
     },
     {
         icon: <DiningIcon/>,
         title: "Real-Time Availability",
         text: "Our website reflects the most accurate room availability.No delays. No mismatched inventory.",
-        hasImage: assets.diningBg,
+        hasImage: assets.realtimeBg,
     },
     {
         icon: <CameraIcon/>,
         title: "Direct Communication",
         text: "Need early check-in? Arriving after a long hike? Traveling with a pet? Booking direct means you can speak with us directly, before and during your stay.",
-        hasImage: assets.beautifulViewBg,
+        hasImage: assets.realirectommunicationBg,
     },
     {
         icon: <BestPriceIcon/>,
         title: "Flexible Assistance",
         text: "Changes happen, especially during mountain travel. Direct bookings allow us to assist more efficiently with adjustments, same-day reservations, and special requests.",
-        hasImage: null,
+        hasImage: assets.felxibleassistantBg,
     }
 ]
 
@@ -43,10 +43,7 @@ const HomeReasonToBook = () => {
                 <Typography variant="h2">
                     Book Direct. Stay Confident.
                 </Typography>
-                <Typography variant="h3">The simplest way to secure your stay in Pinedale.
-
-Booking through our website or by phone ensures the most accurate availability and the best overall experience.
-</Typography>
+                <Typography variant="body1">The simplest way to secure your stay in Pinedale. Booking through our website or by phone ensures the most accurate availability and the best overall experience. </Typography>
             </Box>
 
             <Box className="bookReason">

@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom'
 
 export const activityData = [
   {
-    img: assets.activitiy1,
+    img: assets.IMAG_LA2,
     title: "Wind River Range Adventures",
     textContent: [
       {
@@ -26,7 +26,7 @@ export const activityData = [
     aos: "normal",
   },
   {
-    img: assets.activitiy2,
+    img: assets.IMAG_LA3,
     title: "Fremont Lake and on-the-water days",
     textContent: [
       {
@@ -37,7 +37,7 @@ export const activityData = [
     aos: "reverse",
   },
   {
-    img: assets.activitiy3,
+    img: assets.IMAG_LA4,
     title: "Green River Lakes & Squaretop Mountain",
     textContent: [
       {
@@ -51,7 +51,7 @@ export const activityData = [
     aos: "normal",
   },
   {
-    img: assets.activitiy4,
+    img: assets.IMAG_LA5,
     title: "Fishing the Green & New Fork Rivers",
     textContent: [
       {
@@ -65,7 +65,7 @@ export const activityData = [
     aos: "reverse",
   },
   {
-    img: assets.activitiy5,
+    img: assets.IMAG_LA6,
     title: "Wildlife & Path of the Pronghorn",
     textContent: [
       {
@@ -79,7 +79,7 @@ export const activityData = [
     aos: "normal",
   },
   {
-    img: assets.activitiy6,
+    img: assets.IMAG_LA7,
     title: "Museum of the Mountain Man",
     textContent: [
       {
@@ -90,7 +90,7 @@ export const activityData = [
     aos: "reverse",
   },
   {
-    img: assets.activitiy7,
+    img: assets.IMAG_LA8,
     title: "Golf, Recreation & Aquatic Center",
     textContent: [
       {
@@ -101,7 +101,7 @@ export const activityData = [
     aos: "normal",
   },
   {
-    img: assets.activitiy8,
+    img: assets.IMAG_LA9,
     title: "Restaurants, Bars & Downtown Strolls",
     textContent: [
       {
@@ -124,7 +124,7 @@ const Activities = () => {
         </Helmet>
       </HelmetProvider>
       <ActivitiesWrapperStyled style={{ background: `url(${assets.activityBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
-        <CommonInnerBanner innerBannerImage={assets.activitiyBanner} innerBannerText="Things to Do in Pinedale, Wyoming" innerBannerContent="Your basecamp for the Wind River Range, lakes, wildlife, and real Wyoming nights Pinedale is small, friendly, and surrounded by big country. Whether you’re here for the Wind River Range, Fremont Lake, fishing, wildlife, or a quiet reset, this town delivers. Use the ideas below to build your perfect day,  then come back to a clean room and a quiet night at Teton Court." BannerbuttonText="Book Your Stay"
+        <CommonInnerBanner innerBannerImage={assets.IMAG_LA1} innerBannerText="Things to Do in Pinedale, Wyoming" innerBannerContent="Your basecamp for the Wind River Range, lakes, wildlife, and real Wyoming nights Pinedale is small, friendly, and surrounded by big country. Whether you’re here for the Wind River Range, Fremont Lake, fishing, wildlife, or a quiet reset, this town delivers. Use the ideas below to build your perfect day,  then come back to a clean room and a quiet night at Teton Court." BannerbuttonText="Book Your Stay"
   BannerbuttonLink="/book-now"/>
         <Box className="activityWrap">
           {

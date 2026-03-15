@@ -9,7 +9,7 @@ import { HomeBookStayWrapperStyled } from '../../styles/styledComponents/HomeBoo
 const HomeBookStay = () => {
   return (
     <HomeBookStayWrapperStyled>
-        <Box className="homeBookStay" style={{backgroundImage: `url(${assets.homeBookStay})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
+        <Box className="homeBookStay" style={{backgroundImage: `url(${assets.image9})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
             <Container fixed>
                 <Box className="homeBookStayInner">
                     <Typography variant="h2">BOOK YOUR NEXT STAY TODAY</Typography>

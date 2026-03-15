@@ -17,7 +17,7 @@ const OurStory = () => {
          </Helmet>
        </HelmetProvider>
     <OurStoryWrapperStyled>
-        <CommonInnerBanner innerBannerImage={assets.contactUsBanner} innerBannerText="Our Story" />
+        <CommonInnerBanner innerBannerImage={assets.IMAGE_OS1} innerBannerText="Our Story" />
         <Box className="ourStory cmn_gap">
             <Container fixed>
                 <Box className="cmn_head">
@@ -25,7 +25,7 @@ const OurStory = () => {
                 </Box>
                 <Box className="ourStoryConent">
                     <figure className='ourStoryImg'>
-                        <img src={assets.activitiy1} alt='' />
+                        <img src={assets.IMAGE_OS2} alt='' />
                     </figure>
              
                         <Typography variant='body1'>

@@ -46,11 +46,10 @@ const cabinData = [
     ],
     roomSize: "Rooms are approximately 190 sq. ft. One room offers a pull-out loveseat-sized sofa.",
     cabinImageSliderList: [
-      assets.cabinImage1,
-      assets.cabinImage2,
-      assets.cabinImage3,
-      assets.cabinImage4,
-      assets.cabinImage5,
+      assets.IMAGE_OR_A1,
+      assets.IMAGE_OR_A2,
+      assets.IMAGE_OR_A3,
+      assets.IMAGE_OR_A4,
     ],
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
@@ -91,11 +90,10 @@ const cabinData = [
     ],
     roomSize: "Approximately 220 sq. ft.",
     cabinImageSliderList: [
-      assets.cabinImage1,
-      assets.cabinImage2,
-      assets.cabinImage3,
-      assets.cabinImage4,
-      assets.cabinImage5,
+      assets.IMAGE_OR_C1,
+      assets.IMAGE_OR_C2,
+      assets.IMAGE_OR_C3,
+      assets.IMAGE_OR_C4,
     ],
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
@@ -136,11 +134,9 @@ const cabinData = [
     ],
     roomSize: "Approximately 220 sq. ft.",
     cabinImageSliderList: [
-      assets.cabinImage1,
-      assets.cabinImage2,
-      assets.cabinImage3,
-      assets.cabinImage4,
-      assets.cabinImage5,
+      assets.IMAGE_OR_DD1,
+      assets.IMAGE_OR_DD2,
+      assets.IMAGE_OR_DD3,
     ],
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
@@ -184,11 +180,11 @@ const cabinData = [
     ],
     roomSize: " Rooms vary in size from 250-450 sq. ft.",
     cabinImageSliderList: [
-      assets.cabinImage1,
-      assets.cabinImage2,
-      assets.cabinImage3,
-      assets.cabinImage4,
-      assets.cabinImage5,
+      assets.IMAGE_OR_E1,
+      assets.IMAGE_OR_E2,
+      assets.IMAGE_OR_E3,
+      assets.IMAGE_OR_E4,
+      assets.IMAGE_OR_E5,
     ],
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
@@ -241,11 +237,10 @@ const cabinData = [
     ],
     roomSize: " Rooms vary in size from 250-450 sq. ft.",
     cabinImageSliderList: [
-      assets.cabinImage1,
-      assets.cabinImage2,
-      assets.cabinImage3,
-      assets.cabinImage4,
-      assets.cabinImage5,
+      assets.IMAGE_OR_K1,
+      assets.IMAGE_OR_K2,
+      assets.IMAGE_OR_K3,
+      assets.IMAGE_OR_K4,
     ],
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
@@ -262,7 +257,7 @@ const Cabins = () => {
       </HelmetProvider>
       <CabinsWrapperStyled style={{ background: `url(${assets.cabinBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
         
-        <CommonInnerBanner innerBannerImage={assets.cabinBanner} innerBannerText="Our Rooms" />
+        <CommonInnerBanner innerBannerImage={assets.IMAGE_OR1} innerBannerText="Our Rooms" />
 
         <Box className="eachCabinWrap">
           {

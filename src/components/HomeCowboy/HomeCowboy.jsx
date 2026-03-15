@@ -11,7 +11,7 @@ const HomeCowboy = () => {
                 <Grid container columnSpacing={5} rowSpacing={4}>
                     <Grid item md={6} xs={12} data-aos="zoom-in">
                         <figure className='homeCowboyImg'>
-                            <img src={assets.homeCowboy} width="100%" alt="" />
+                            <img src={assets.image8} width="100%" alt="" />
                         </figure>
                     </Grid>
                     <Grid item md={6} xs={12}>

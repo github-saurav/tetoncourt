@@ -11,7 +11,7 @@ const HomeCabinActivity = () => {
     <HomeCabinActivityStyled className='cmn_gap cmn_gap_btm'>
         <Grid container columnSpacing={2.5} rowSpacing={4}>
             <Grid item md={6} xs={12} data-aos="fade-right">
-                <Box className="homeCabinActivityCard" style={{backgroundImage: `url(${assets.homeCabinActivityCabin})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
+                <Box className="homeCabinActivityCard" style={{backgroundImage: `url(${assets.ourRooms})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
                     <Typography variant="h2">Our Rooms</Typography>
                     <CustomButton buttonColor="black"   onClick={() => navigate('/our-rooms')}>
                         LEARN MORE
@@ -19,7 +19,7 @@ const HomeCabinActivity = () => {
                 </Box>
             </Grid>
             <Grid item md={6} xs={12} data-aos="fade-left">
-                <Box className="homeCabinActivityCard" style={{backgroundImage: `url(${assets.homeCabinActivityActivities})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
+                <Box className="homeCabinActivityCard" style={{backgroundImage: `url(${assets.Adventure})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
                     <Typography variant="h2">Adventures</Typography >
                     <CustomButton buttonColor="black"  onClick={() => navigate('/local-adventures')} >
                         LEARN MORE

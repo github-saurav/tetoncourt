@@ -15,7 +15,7 @@ import { useNavigate } from 'react-router-dom';
 export const propDetailsFeatureData = [
   {
     title: "CLOSE TO WHERE YOU WANT TO BE",
-    img: assets.proFeature1,
+    img: assets.IMAGE_YS2,
     aos: "normal",
     textContent: [
       {
@@ -40,7 +40,7 @@ export const propDetailsFeatureData = [
   },
   {
     title: "OUR ROOMS",
-    img: assets.proFeature2,
+    img: assets.IMAGE_YS3,
     aos: "reverse",
     textContent: [
       {
@@ -61,7 +61,7 @@ export const propDetailsFeatureData = [
   },
   {
     title: "BENEFITS OF BOOKING DIRECTLY WITH US",
-    img: assets.proFeature3,
+    img: assets.IMAGE_YS4,
     aos: "normal",
     textContent: [
       {
@@ -127,7 +127,7 @@ const PropertyDetails = () => {
         </Helmet>
       </HelmetProvider>
       <PropertyDetailsWrapperStyled style={{ background: `url(${assets.propertyDetailsBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
-        <CommonInnerBanner innerBannerImage={assets.propertyDetailsBanner} innerBannerText="Your Stay" />
+        <CommonInnerBanner innerBannerImage={assets.IMAGE_YS1} innerBannerText="Your Stay" />
 
         <Box className="motelInfo cmn_gap">
           <Container fixed>
@@ -196,7 +196,7 @@ const PropertyDetails = () => {
             <Grid container columnSpacing={5} rowSpacing={4} alignItems="center" >
               <Grid item md={6} xs={12} data-aos="zoom-in">
                 <Box className="ourGroundImg">
-                  <img src={assets.ourGround} alt="Our Ground" />
+                  <img src={assets.IMAGE_YS5} alt="Our Ground" />
                 </Box>
               </Grid>
               <Grid item md={6} xs={12}>
@@ -232,7 +232,7 @@ const PropertyDetails = () => {
               </Grid>
               <Grid item md={6} xs={12} data-aos="fade-left">
                 <figure className='propertyAmenitiesImg'>
-                  <img src={assets.propertyAmenities} alt="" />
+                  <img src={assets.IMAGE_YS6} alt="" />
                 </figure>
               </Grid>
             </Grid>
