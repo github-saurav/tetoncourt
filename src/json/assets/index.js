@@ -9,7 +9,6 @@ export const assets = {
     image9 : "/assets/images/image9.jpg",
     rooms1 : "/assets/images/rooms1.jpg",
     rooms2 : "/assets/images/rooms2.jpg",
-    rooms2 : "/assets/images/rooms2.jpg",
     IMAG_LA1 : "/assets/images/IMAG_LA1.jpg",  
     IMAG_LA2 : "/assets/images/IMAG_LA2.jpg",  
     IMAG_LA3 : "/assets/images/IMAG_LA3.jpg",  
