@@ -215,9 +215,9 @@ const ContactUs = () => {
 
                     {isCorrect === false && <Typography textAlign={'left'} className='catchaError' variant='body1'>Invalid captcha, please try again.</Typography>}
 
-                    {/* <CustomButton className="contactFormSubmitBtn" buttonTypeSubmit buttonColor="black" onClick={handleCaptchaSubmit}>
+                    <CustomButton className="contactFormSubmitBtn" buttonTypeSubmit buttonColor="black" onClick={handleCaptchaSubmit}>
                       SUBMIT
-                    </CustomButton> */}
+                    </CustomButton>
                   </Box>
                 }
 

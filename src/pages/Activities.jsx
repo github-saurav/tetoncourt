@@ -6,7 +6,7 @@ import CommonInnerBanner from '../components/CommonInnerBanner/CommonInnerBanner
 // eslint-disable-next-line no-unused-vars
 import NewsLetter from '../components/NewsLetter/NewsLetter'
 import { Box, Container, Grid, Typography } from '@mui/material'
-import CustomButton from '../ui/CustomButton/CustomButton'
+//import CustomButton from '../ui/CustomButton/CustomButton'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 import { useNavigate } from 'react-router-dom'
 
@@ -139,12 +139,7 @@ const Activities = () => {
                             })
                           }
                         </Box>
-                       { 
-                       /* <CustomButton buttonColor="black" onClick={() => navigate(eachData.linkPath)}>
-                          LEARN MORE
-                        </CustomButton>
-                        */
-                       }
+                       
                       </Box>
                     </Grid>
                   </Grid>
