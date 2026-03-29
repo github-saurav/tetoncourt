@@ -10,17 +10,17 @@ const HomeGallery = () => {
             <Grid container columnSpacing={3} >
                 <Grid item md={4} xs={12} lg={4} data-aos="fade-right">
                     <figure>
-                        <img src={assets.homeGalleryOne} alt="" />
+                        <img src={assets.IMAGE_H11} alt="" />
                     </figure>
                 </Grid>
                 <Grid item md={4} xs={12} lg={4} data-aos="fade-up">
                     <figure>
-                        <img src={assets.homeGalleryTwo} alt="" />
+                        <img src={assets.IMAGE_H12} alt="" />
                     </figure>
                 </Grid>
                 <Grid item md={4} xs={12} lg={4} data-aos="fade-left">
                     <figure>
-                        <img src={assets.homeGalleryThree} alt="" />
+                        <img src={assets.IMAGE_H13} alt="" />
                     </figure>
                 </Grid>
             </Grid>

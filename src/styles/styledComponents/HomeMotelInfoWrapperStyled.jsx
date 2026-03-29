@@ -14,7 +14,7 @@ padding: 100px 0 50px;
     text-align: center;
     p{
         font-size: 18px;
-        font-family: "Old Standard TT", serif;
+        font-family: "Raleway";
         margin-bottom: 30px;
     }
 

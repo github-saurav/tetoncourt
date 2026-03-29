@@ -76,7 +76,7 @@ const Footer = () => {
               </Typography>
               <List disablePadding className='footerConactLinkList'>
                 <ListItem>
-                  <Link to="tel:(307) 367-3367"><i><CallIcon /></i> (307) 367-3367</Link>
+                  <Link to="tel:(307) 367-3367"><i><CallIcon /></i> (307) 367-3367 (Call or Text)</Link>
                 </ListItem>
                 <ListItem>
                   <Link to="mailto:res@tetoncourt.com"><i><EmailIcon /></i> res@tetoncourt.com</Link>
@@ -99,7 +99,7 @@ const Footer = () => {
             </Box>
             <Box className="footerTopCol footerTopColPadding footerTopSocialCol">
               <Typography variant='body1' className="footerTitle">HOURS</Typography>
-              <Typography variant='body1'>Our reservation and front desk team are available daily from 9am to 6pm CST.</Typography>
+              <Typography variant='body1'>Our reservation and front desk team are available daily in the summer season from 9 am to 9 pm MDT.  Best time to call is 4pm to 9pm, texting is welcome. </Typography>
               <CustomButton buttonColor='white' className='footerBookBtn' onClick={() => window.open('https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846', '_blank')}>
               BOOK A ROOM
               </CustomButton>
@@ -124,7 +124,7 @@ const Footer = () => {
             <Box className="footerBotLeft">
               <List disablePadding>
                 <ListItem>
-                  &copy; 2024 <Link onClick={scrollToTop} to="/">Teton Court Motel.</Link> All rights reserved.
+                  &copy; 2026 <Link onClick={scrollToTop} to="/">Teton Court Motel.</Link> All rights reserved.
                 </ListItem>
               </List>
             </Box>

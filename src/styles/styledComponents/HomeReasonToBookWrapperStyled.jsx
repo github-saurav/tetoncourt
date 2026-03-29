@@ -18,7 +18,7 @@ background-color: rgba(255,255,255,0.85);
                 top: 0;
                 width: 100%;
                 height: 100%;
-                background-color: rgba(92,83,70,.5);
+                background-color: rgba(16,13,8,0.5);
                 z-index: -1;
             }
         }

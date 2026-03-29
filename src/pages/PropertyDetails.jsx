@@ -19,22 +19,22 @@ export const propDetailsFeatureData = [
     aos: "normal",
     textContent: [
       {
-        eachText: "Minutes from Wind River Range trailheads",
+        eachText: "✔ Minutes from Wind River Range trailheads",
       },
       {
-        eachText: "- Easy access to Elkhart Park",
+        eachText: "✔ - Easy access to Elkhart Park",
       },
       {
-        eachText: "Near Fremont Lake, Green River, and New Fork River",
+        eachText: "✔ Near Fremont Lake, Green River, and New Fork River",
       },
       {
-        eachText: "A scenic, less expensive, alternative base for Yellowstone and Grand Teton National Parks",
+        eachText: "✔ A scenic, less expensive, alternative base for Yellowstone and Grand Teton National Parks",
       },
       {
-        eachText: "Walking distance to the bike shop, grocery store, restaurants, and local bars",
+        eachText: "✔ Walking distance to the bike shop, grocery store, restaurants, and local bars",
       },
       {
-        eachText: "You won’t need to drive across town for dinner or supplies. Everything is close (mountains included).",
+        eachText: "✔ You won’t need to drive across town for dinner or supplies. Everything is close (mountains included).",
       }
     ]
   },
@@ -44,16 +44,16 @@ export const propDetailsFeatureData = [
     aos: "reverse",
     textContent: [
       {
-        eachText: "Comfort after a day outdoors.",
+        eachText: "✔ Comfort after a day outdoors.",
       },
       {
-        eachText: 'Each room is designed for rest and simplicity. Expect clean spaces, comfortable beds, Wi-Fi, a mini-fridge and microwave, Keurig coffee maker, and a 43" TV with streaming services and live TV.',
+        eachText: '✔ Each room is designed for rest and simplicity. Expect clean spaces, comfortable beds, Wi-Fi, a mini-fridge and microwave, Keurig coffee maker, and a 43" TV with streaming services and live TV.',
       },
       {
-        eachText: 'From our Deluxe King to our more spacious Superior Doubles and historic cabin-style accommodations, every stay offers practical comfort without resort pricing.',
+        eachText: '✔ From our Deluxe King to our more spacious Superior Doubles and historic cabin-style accommodations, every stay offers practical comfort without resort pricing.',
       },
       {
-        eachText: 'Simple. Quiet. Reliable.',
+        eachText: '✔ Simple. Quiet. Reliable.',
       }
     ],
     linkPath: '/our-rooms',
@@ -65,19 +65,19 @@ export const propDetailsFeatureData = [
     aos: "normal",
     textContent: [
       {
-        eachText: "Direct communication for early check-in or trail timing",
+        eachText: "✔ Direct communication for early check-in or trail timing",
       },
       {
-        eachText: "The best available rate Real-time room availability",
+        eachText: "✔ The best available rate Real-time room availability",
       },
       {
-        eachText: "- Direct communication for early check-in or trail timing",
+        eachText: "✔ - Direct communication for early check-in or trail timing",
       },
       {
-        eachText: "Faster assistance with changes or last-minute stays",
+        eachText: "✔ Faster assistance with changes or last-minute stays",
       },
       {
-        eachText: "Mountain plans can shift — booking direct keeps things flexible.",
+        eachText: "✔ Mountain plans can shift — booking direct keeps things flexible.",
       }
     ],
     bookNow : true,
@@ -127,7 +127,7 @@ const PropertyDetails = () => {
         </Helmet>
       </HelmetProvider>
       <PropertyDetailsWrapperStyled style={{ background: `url(${assets.propertyDetailsBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
-        <CommonInnerBanner innerBannerImage={assets.IMAGE_YS1} innerBannerText="Your Stay" />
+        <CommonInnerBanner innerBannerImage={assets.IMAGE_YS1} innerBannerText="Property Details" />
 
         <Box className="motelInfo cmn_gap">
           <Container fixed>

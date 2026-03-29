@@ -13,6 +13,7 @@ const HomeMotelInfo = () => {
                     <Typography variant="h2">
                         TETON COURT MOTEL
                     </Typography>
+                    <Typography variant="h3">Your Starting Point for Wind River Adventure</Typography>
                 </Box>
                 <Typography variant="body1">
 A locally owned, seasonal motel open mid-May through early October.

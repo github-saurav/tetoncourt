@@ -54,6 +54,20 @@ Travel has shaped my vision as much as academia has. I’ve personally visited 1
 Teton Court is also a family effort. During summers, my children devote much of their break to helping run the motel, greeting guests, assisting with upkeep, and learning firsthand the value of responsibility and service. This isn’t a distant investment. It’s something we live every day.
 When I’m on property, I enjoy personally welcoming guests. If you’d like to talk about travel, technology, higher education, or the beauty of the Wind River Mountains, I’m always happy to visit in the evenings. Some of the best conversations happen after a long day on the road.
                         </Typography>
+                        <Box className="ourStoryGallery">
+                            <figure>
+                                <img src={assets.IMAGE_OS3} alt="Gallery 1" />
+                            </figure>
+                            <figure>
+                                <img src={assets.IMAGE_OS4} alt="Gallery 2" />
+                            </figure>
+                            <figure>
+                                <img src={assets.IMAGE_OS5} alt="Gallery 3" />
+                            </figure>
+                            <figure>
+                                <img src={assets.IMAGE_OS6} alt="Gallery 4" />
+                            </figure>
+                        </Box>
                         <Typography variant='h4'>- <i>Carrying the Tradition Forward</i></Typography>
                         <Typography variant='body1'>
                         Teton Court isn’t a corporate chain. It’s an independent Wyoming motel owned by a family that believes places like this still matter.

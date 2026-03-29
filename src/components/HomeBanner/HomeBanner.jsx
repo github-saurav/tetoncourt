@@ -126,7 +126,7 @@ const HomeBanner = () => {
                 style={{
                     position: 'absolute',
                     inset: 0,
-                    background: 'rgba(0, 0, 0, 0.45)', // ← change 0.45 to 0.3–0.6 depending on your text contrast needs
+                   // background: 'rgba(0, 0, 0, 0.45)', // ← change 0.45 to 0.3–0.6 depending on your text contrast needs
                     zIndex: -1,
                 }}
             />
@@ -143,7 +143,7 @@ const HomeBanner = () => {
                 </Box>
                 <Box className="homeBannerContent">
                     <Typography variant="h1">
-                        WELCOME TO <br />
+                        WELCOME TO THE<br />
                         Teton Court Motel
                     </Typography>
                     <Typography variant="h2">Your Starting Point for Wind River Adventure</Typography>

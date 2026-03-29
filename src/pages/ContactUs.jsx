@@ -170,7 +170,7 @@ const ContactUs = () => {
                 </Typography>
               </Box>
               <Typography variant='body1'>
-                Interested in booking your next stay at Teton Court Motel? We'd love to hear from you - contact us using the form below, and we'll get right back to you. We look forward to serving you.
+                Interested in booking your next stay at Teton Court Motel? We'd love to hear from you - contact us using the form below, and we'll get right back to you. We look forward to serving you can also email us or text us, the information is at the bottom of this page.
               </Typography>
               <form ref={form} onSubmit={contactSubmit} >
                 <Grid container columnSpacing={4} rowSpacing={3}>
@@ -215,9 +215,9 @@ const ContactUs = () => {
 
                     {isCorrect === false && <Typography textAlign={'left'} className='catchaError' variant='body1'>Invalid captcha, please try again.</Typography>}
 
-                    <CustomButton className="contactFormSubmitBtn" buttonTypeSubmit buttonColor="black" onClick={handleCaptchaSubmit}>
+                    {/* <CustomButton className="contactFormSubmitBtn" buttonTypeSubmit buttonColor="black" onClick={handleCaptchaSubmit}>
                       SUBMIT
-                    </CustomButton>
+                    </CustomButton> */}
                   </Box>
                 }
 
@@ -250,15 +250,16 @@ const ContactUs = () => {
                     <Typography variant='body1'>Conveniently located between 11th Street and Main Street:</Typography>
 
                     <List className='contactUsInfoList'>
-                      <ListItem>Walking distance to the best shopping and restaurants</ListItem>
-                      <ListItem>Quick giddy up to Frontier Times Museum and General Store</ListItem>
-                      <ListItem>Located 1 hour from Downtown San Antonio and 2 hours from Austin</ListItem>
-                      <ListItem>Take Route 16 or Highway 173 to arrive into Bandera</ListItem>
-                      <ListItem>A scenic 45 minute drive to Fredericksburg's vineyards</ListItem>
-                      <ListItem>Beautiful 20 mile drive to Lake Medina</ListItem>
-                      <ListItem>Short 10 Miles to the Hill Country State Natural Park</ListItem>
-                      <ListItem>Hilly 45 minute drive to Lost Maples State Natural Area</ListItem>
-                      <ListItem>A stones throw away to the Medina River</ListItem>
+                      <ListItem>Walk to restaurants, coffee, grocery, and gear shops</ListItem>
+                      <ListItem>Steps from the Museum of the Mountain Man </ListItem>
+                      <ListItem>Minutes to Fremont Lake</ListItem>
+                      <ListItem>Quick access to the Green River </ListItem>
+                      <ListItem>Gateway to the Wind River Range </ListItem>
+                      <ListItem>~1.5 hours to Jackson & Grand Teton National Park </ListItem>
+                      <ListItem>~2.5 hours to Yellowstone National Park </ListItem>
+                      <ListItem>Scenic drive on Scenic Byway 191 </ListItem>
+                      <ListItem>Near Continental Divide Trail access </ListItem>
+                      <ListItem>Big skies, wildlife, and mountain views </ListItem>
                     </List>
                   </Box>
                 </Grid>

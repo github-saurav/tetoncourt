@@ -12,17 +12,14 @@ import { useNavigate } from 'react-router-dom'
 
 export const activityData = [
   {
-    img: assets.IMAG_LA2,
+    img: assets.IMAGE_LA2,
     title: "Wind River Range Adventures",
     textContent: [
       {
         eachText: "If you came for the mountains, you’re in the right place. Pinedale is one of the best jumping-off points for hiking, backpacking, photography, and high-alpine exploration. Day hikes to lakes and overlooks - Backpacking deeper into the Winds - Easy access to Elkhart Park and other trailheads",
-      },
-      {
-        eachText: "For more information on Outlaw Outfitters, click on the Learn More tab below to visit their website."
-      },
+      }
     ],
-    linkPath: "/local-adventures/attractions",
+   // linkPath: "/local-adventures/attractions",
     aos: "normal",
   },
   {
@@ -42,10 +39,7 @@ export const activityData = [
     textContent: [
       {
         eachText: "One of the most iconic views in Wyoming. About 52 miles north of town, this scenic drive leads to hiking, canoeing, fishing, and photography with dramatic mountain backdrops. A must-see if you have the time.",
-      },
-      {
-        eachText: "For more information on the Spirit of Texas, click on the Learn More tab below to visit their website.",
-      },
+      }
     ],
     linkPath: "/local-adventures/attractions",
     aos: "normal",
@@ -57,9 +51,6 @@ export const activityData = [
       {
         eachText: "Pinedale sits in prime fishing country. Anglers come for the Green River, New Fork River, Fremont Lake, and nearby alpine waters. Early mornings, clean water, big skies.",
       },
-      {
-        eachText: "For more information on TJ's @ The Old Forge, click on the Learn More tab below to visit their website.",
-      },
     ],
     linkPath: "/local-adventures/attractions",
     aos: "reverse",
@@ -70,10 +61,7 @@ export const activityData = [
     textContent: [
       {
         eachText: "Learn about one of North America’s most remarkable wildlife migration corridors at Trappers Point. Seasonal viewing opportunities make this a unique stop.",
-      },
-      {
-        eachText: "For more information on 11th Street Cowboy Bar, click on the Learn More tab below to visit their website.",
-      },
+      }
     ],
     linkPath: "/local-adventures/attractions",
     aos: "normal",
@@ -151,9 +139,12 @@ const Activities = () => {
                             })
                           }
                         </Box>
-                        <CustomButton buttonColor="black" onClick={() => navigate(eachData.linkPath)}>
+                       { 
+                       /* <CustomButton buttonColor="black" onClick={() => navigate(eachData.linkPath)}>
                           LEARN MORE
                         </CustomButton>
+                        */
+                       }
                       </Box>
                     </Grid>
                   </Grid>
