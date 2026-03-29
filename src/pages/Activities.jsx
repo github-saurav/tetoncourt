@@ -8,7 +8,7 @@ import NewsLetter from '../components/NewsLetter/NewsLetter'
 import { Box, Container, Grid, Typography } from '@mui/material'
 //import CustomButton from '../ui/CustomButton/CustomButton'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
-import { useNavigate } from 'react-router-dom'
+//import { useNavigate } from 'react-router-dom'
 
 export const activityData = [
   {
@@ -103,7 +103,6 @@ export const activityData = [
 
 const TITLE = 'Teton Court Motel - Local Adventures';
 const Activities = () => {
-  const navigate = useNavigate();
   return (
     <Wrapper>
       <HelmetProvider>
