@@ -160,7 +160,7 @@ const ContactUs = () => {
         </Helmet>
       </HelmetProvider>
       <ContactUsWrapperStyled style={{ background: `url(${assets.contactUsBanner})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
-        <CommonInnerBanner innerBannerImage={assets.contactUsBanner} innerBannerText="Contact Us" />
+        <CommonInnerBanner innerBannerImage={assets.IMAGE_CU1} innerBannerText="Contact Us" />
         <Box className="contactUs cmn_gap">
           <Container fixed>
             <Box className="contactUsForm">

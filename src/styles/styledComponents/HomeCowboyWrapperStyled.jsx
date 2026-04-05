@@ -2,7 +2,7 @@ import { primaryColors } from "../../mui-theme/_muiPalette";
 import { styled } from '@mui/material/styles';
 import { Box } from "@mui/material";
 export const HomeCowboyWrapperStyled = styled(Box)`
-    background-color: #CD853F;
+    background-color: #613F35;
     padding: 50px 0 100px;
 
     @media (max-width: 1199px) {

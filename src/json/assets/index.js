@@ -105,5 +105,6 @@ export const assets = {
     IMAGE_OS4: "/assets/images/IMAGE_OS4.jpg",
     IMAGE_OS5: "/assets/images/IMAGE_OS5.jpg",
     IMAGE_OS6: "/assets/images/IMAGE_OS6.jpg",
+    IMAGE_CU1: "/assets/images/IMAGE_CU1.png",
 }
 
