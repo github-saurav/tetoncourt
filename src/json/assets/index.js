@@ -106,5 +106,10 @@ export const assets = {
     IMAGE_OS5: "/assets/images/IMAGE_OS5.jpg",
     IMAGE_OS6: "/assets/images/IMAGE_OS6.jpg",
     IMAGE_CU1: "/assets/images/IMAGE_CU1.png",
+    IR_E1: "/assets/images/IR_E1.jpg",
+    IR_E2: "/assets/images/IR_E2.jpg",
+    IR_E3: "/assets/images/IR_E3.jpg",
+    IR_E4: "/assets/images/IR_E4.jpg",
+    IR_E5: "/assets/images/IR_E5.jpg",
 }
 

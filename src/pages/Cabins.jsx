@@ -53,6 +53,45 @@ const cabinData = [
     ],
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
+   {
+    title: "Economy Double Double",
+    subtitle: "2 Double Beds",
+    persons: "Up to 4 Guests",
+    roomAmenitiesTitle: "Room Amenities :",
+    roomAmenitiesList: [
+      {
+        amenities: "43\" TV with streaming services (Amazon Firestick) and live TV",
+      },
+      {
+        amenities: "Enjoy Wi-Fi",
+      },
+      {
+        amenities: "Private bathroom with shower-tub combinatiomini kitchenette feature",
+      },
+      {
+        amenities: "Mini-fridge",
+      },
+      {
+        amenities: "Microwave",
+      },
+      {
+        amenities: "walk-in shower"
+      },
+      {
+        amenities: "Hard flooring (no carpet) and is pet-friendly (extra fee applies for pets)."
+      }
+
+    ],
+    roomSize: "Two comfortable double beds offer space for friends or small families without paying for extras you may not need.",
+    cabinImageSliderList: [
+      assets.IR_E1,
+      assets.IR_E2,
+      assets.IR_E3,
+      assets.IR_E4,
+      assets.IR_E5,
+    ],
+    linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
+  },
   {
     title: "Deluxe Double",
     subtitle: "2 Double Beds | Up to 4 Guests",
