@@ -39,7 +39,7 @@ const Header = () => {
     },
     {
       name: "Policies / Conditions",
-      path: "/terms-conditions",
+      path: "/policies",
     },
     {
       name: "Contact Us",
@@ -146,7 +146,7 @@ const Header = () => {
               <NavLink className={(navData) => (navData.isActive ? "active headerLogo" : 'headerLogo')} to="/" ><img src={assets.logo} alt="header logo" /></NavLink >
               <List className='right_nav '>
                 <ListItem><NavLink className={(navData) => (navData.isActive ? "active" : '')} to="/local-adventures">Local Adventures</NavLink ></ListItem>
-                <ListItem><NavLink className={(navData) => (navData.isActive ? "active" : '')} to="/terms-conditions">Policies</NavLink ></ListItem>
+                <ListItem><NavLink className={(navData) => (navData.isActive ? "active" : '')} to="/policies">Policies</NavLink ></ListItem>
                 <ListItem><NavLink className={(navData) => (navData.isActive ? "active" : '')} to="/contact-us">Contact Us</NavLink ></ListItem>
               </List>
 

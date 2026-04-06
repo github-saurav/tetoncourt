@@ -146,7 +146,7 @@ const HomeBanner = () => {
                         WELCOME TO THE<br />
                         Teton Court Motel
                     </Typography>
-                    <Typography variant="h2">Your Starting Point for Wind River Adventure</Typography>
+                    
                 </Box>
                 <Box className="bannerCalendar">
                     <form id="resnexus-widget" name="resnexus-widget" action="https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846" method="get">

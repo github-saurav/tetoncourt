@@ -131,7 +131,7 @@ const Footer = () => {
             <Box className="footerBotRight">
               <List disablePadding>
                 <ListItem>
-                  <NavLink onClick={scrollToTop} to="/terms-conditions" className={(navData) => (navData.isActive ? "active" : 'none')}>
+                  <NavLink onClick={scrollToTop} to="/policies" className={(navData) => (navData.isActive ? "active" : 'none')}>
                   Terms & Conditions   / Privacy & Cookie Statement
                   </NavLink>
                 </ListItem>

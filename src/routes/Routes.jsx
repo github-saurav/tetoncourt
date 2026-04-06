@@ -78,7 +78,7 @@ const Routes = createBrowserRouter([
                 element: <Activities />
             },
             {
-                path: "/terms-conditions",
+                path: "/policies",
                 element: <TermsConditions />
             },
             {
