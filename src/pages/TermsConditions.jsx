@@ -21,7 +21,7 @@ const TermsConditions = () => {
         </Helmet>
         </HelmetProvider>
         <TermsConditionsWrapperStyled style={{ background: `url(${assets.propertyDetailsBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
-<CommonInnerBanner innerBannerImage={assets.termsConditionsBanner} innerBannerText="Additional Information" />
+<CommonInnerBanner innerBannerImage={assets.IMAGE_P1} innerBannerText="Additional Information" />
 <Box className="policy cmn_gap">
     <Container fixed>
         <Box className="cmn_head">

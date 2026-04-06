@@ -128,5 +128,6 @@ export const assets = {
     IM_OR_C2:"/assets/images/IM_OR_C2.jpg",
     IM_OR_C3:"/assets/images/IM_OR_C3.jpg",
     IM_OR_C4:"/assets/images/IM_OR_C4.jpg",
+    IMAGE_P1:"/assets/images/IMAGE_P1.jpg",
 }
 
