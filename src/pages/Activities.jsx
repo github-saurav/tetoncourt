@@ -57,10 +57,10 @@ export const activityData = [
   },
   {
     img: assets.IMAG_LA6,
-    title: "Wildlife & Path of the Pronghorn",
+    title: "Grab a great meal at the Pitchfork Fondue",
     textContent: [
       {
-        eachText: "Learn about one of North America’s most remarkable wildlife migration corridors at Trappers Point. Seasonal viewing opportunities make this a unique stop.",
+        eachText: "One of Pinedale’s most unique traditions is the Pitchfork Fondue—where steaks are lowered into bubbling oil on pitchforks and served fresh under the Wyoming evening sky. Learn about one of North America’s most remarkable wildlife migration corridors at Trappers Point. Seasonal viewing opportunities make this a unique stop.",
       }
     ],
     linkPath: "/local-adventures/attractions",
