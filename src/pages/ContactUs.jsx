@@ -247,7 +247,7 @@ const ContactUs = () => {
                         SURROUNDINGS & DIRECTIONS
                       </Typography>
                     </Box>
-                    <Typography variant='body1'>Conveniently located between 11th Street and Main Street:</Typography>
+                    <Typography variant='body1'>Conveniently located near the heart of Pinedale:</Typography>
 
                     <List className='contactUsInfoList'>
                       <ListItem>Walk to restaurants, coffee, grocery, and gear shops</ListItem>
