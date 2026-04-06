@@ -16,6 +16,7 @@ const cabinData = [
   {
     title: "Deluxe King",
     subtitle: "1 King Bed | 1–2 Guests",
+    subdesc:"A cozy, restful retreat designed for quiet comfort. The Deluxe King features a plush pillow-top king bed and a relaxed seating area — ideal for unwinding after a day in the Wind River Range.",
     persons: "The Deluxe King rooms sleep 1-2 adults ",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
@@ -43,19 +44,23 @@ const cabinData = [
       {
         amenities: "Private bathroom with shower-tub combination",
       },
+      {
+        amenities: "Some of our rooms are pet-free, some are pet-friendly (a separate pet fee applies for pets).",
+      },
     ],
     roomSize: "Rooms are approximately 190 sq. ft. One room offers a pull-out loveseat-sized sofa.",
     cabinImageSliderList: [
-      assets.IMAGE_OR_A1,
-      assets.IMAGE_OR_A2,
-      assets.IMAGE_OR_A3,
-      assets.IMAGE_OR_A4,
+      assets.IMGOR_K1,
+      assets.IMGOR_K2,
+      assets.IMGOR_K3,
+      assets.IMGOR_K4,
     ],
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
    {
     title: "Economy Double Double",
     subtitle: "2 Double Beds",
+    subdesc:"A budget-friendly room for travelers who want a clean, simple place to stay while exploring Pinedale. ",
     persons: "Up to 4 Guests",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
@@ -93,53 +98,10 @@ const cabinData = [
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
   {
-    title: "Deluxe Double",
+    title: "Deluxe Double Double",
     subtitle: "2 Double Beds | Up to 4 Guests",
+    subdesc:"Designed for guests who value space and simplicity. Two comfortable double beds provide an easy place to recharge after a full day outdoors.",
     persons: "The Deluxe Double sleeps 1-4 adults",
-    roomAmenitiesTitle: "Room Amenities :",
-    roomAmenitiesList: [
-      {
-        amenities: "A work desk or comfortable reading chair",
-      },
-      {
-        amenities: " two comfortable double/full sized beds",
-      },
-      {
-        amenities: "mini-fridge",
-      },
-      {
-        amenities: "microwave",
-      },
-      {
-        amenities: "kitchenette",
-      },
-      {
-        amenities: "television with Amazon FireStick",
-      },
-      {
-        amenities: "WiFi",
-      },
-      {
-        amenities: "Keurig coffee maker",
-      },
-      {
-        amenities: "full bathroom with tub and shower",
-      },
-
-    ],
-    roomSize: "Approximately 220 sq. ft.",
-    cabinImageSliderList: [
-      assets.IMAGE_OR_C1,
-      assets.IMAGE_OR_C2,
-      assets.IMAGE_OR_C3,
-      assets.IMAGE_OR_C4,
-    ],
-    linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
-  },
-  {
-    title: "AirCon Deluxe Double",
-    subtitle: "2 Double Beds | Climate-Controlled",
-    persons: "Similar to our Deluxe Double room, but with Air Conditioning. The rooms sleep 1-4 adults",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
       {
@@ -164,10 +126,13 @@ const cabinData = [
         amenities: "WiFi",
       },
       {
-        amenities: "a Keurig coffee maker with K-cups",
+        amenities: "Keurig coffee maker",
       },
       {
         amenities: "full bathroom with tub and shower",
+      },
+      {
+        amenities: "Some of our rooms are pet-free, some are pet-friendly (a separate pet fee applies for pets).",
       },
 
     ],
@@ -180,8 +145,60 @@ const cabinData = [
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
   {
-    title: "Superior Double",
-    subtitle: "2 Double Beds | Extra Space",
+    title: "AirCon Double Double",
+    subtitle: "2 Double Beds | Up to 4 Guests  | Climate-Controlled",
+    subdesc:"All the features of our Deluxe Double, plus air conditioning for warmer summer days.",
+    persons: "Similar to our Deluxe Double room, but with Air Conditioning. The rooms sleep 1-4 adults",
+    roomAmenitiesTitle: "Room Amenities :",
+    roomAmenitiesList: [
+      {
+        amenities: "A work desk or comfortable reading chair",
+      },
+      {
+        amenities: "two comfortable double/full sized beds",
+      },
+      {
+        amenities: "mini-fridge",
+      },
+      {
+        amenities: "microwave",
+      },
+      {
+        amenities: "kitchenette",
+      },
+      {
+        amenities: '43" TV with streaming services and live TV',
+      },
+      {
+        amenities: "WiFi",
+      },
+      {
+        amenities: "a Keurig coffee maker with K-cups",
+      },
+      {
+        amenities: "full bathroom with tub and shower",
+      },
+      {
+        amenities: "Private bath, most with a shower-tub combinationr",
+      },
+      {
+        amenities: "Some of our rooms are pet-free, some are pet-friendly (a separate pet fee applies for pets).",
+      },
+
+    ],
+    roomSize: "Approximately 220 sq. ft.",
+    cabinImageSliderList: [
+      assets.IM_OR_A1,
+      assets.IM_OR_A2,
+      assets.IM_OR_A3,
+      assets.IM_OR_A4,
+    ],
+    linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
+  },
+  {
+    title: "Superior Double Double",
+    subtitle: "2 Double Beds | Up to 4 people | Extra Space",
+    subdesc:"Our most spacious standard rooms — ideal for families or longer stays.",
     persons: "The Superior Doubles are our largest rooms. These rooms sleep 1-4 (some rooms sleep more than 4)",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
@@ -210,7 +227,10 @@ const cabinData = [
         amenities: "Keurig coffee maker",
       },
       {
-        amenities: "Some rooms have showers and others have shower-tub combinations",
+        amenities: "Private bath, with a shower or shower-tub combination",
+      },
+      {
+        amenities: "Some of our rooms are pet-free, some are pet-friendly (a separate pet fee applies for pets).",
       },
       {
         amenities: "Select rooms include a sofa or loveseat",
@@ -219,37 +239,23 @@ const cabinData = [
     ],
     roomSize: " Rooms vary in size from 250-450 sq. ft.",
     cabinImageSliderList: [
-      assets.IMAGE_OR_E1,
-      assets.IMAGE_OR_E2,
-      assets.IMAGE_OR_E3,
-      assets.IMAGE_OR_E4,
-      assets.IMAGE_OR_E5,
+      assets.IM_OR_S1,
+      assets.IM_OR_S2,
+      assets.IM_OR_S3,
+      assets.IM_OR_S4,
+      assets.IM_OR_S5,
     ],
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
   {
     title: "Family Cabin",
-    subtitle: "Historic Cabin | Spacious & Unique",
+    subtitle: "Historic 1908 Cabin | Sleeps up to 6 people | Spacious & Unique",
+    subdesc:"Experience warm wood interiors and added space in our cabin-style accommodations.  Three queen beds.  Sleeps up to 6 people.",
     persons: "The Family Cabin are our largest rooms. These rooms sleep 1-4 (some rooms sleep more than 4)",
     roomAmenitiesTitle: "Room Amenities :",
     roomAmenitiesList: [
       {
         amenities: "Includes comfortable bedding",
-      },
-      {
-        amenities: "two comfortable double/full sized beds",
-      },
-      {
-        amenities: "dining table",
-      },
-      {
-        amenities: "mini-fridge",
-      },
-      {
-        amenities: "microwave",
-      },
-      {
-        amenities: "kitchenette",
       },
       {
         amenities: '43" TV with streaming services and live TV',
@@ -270,16 +276,19 @@ const cabinData = [
         amenities: "Some rooms have showers and others have shower-tub combinations",
       },
       {
-        amenities: "Some have a separate sofa or love seat",
+        amenities: "Room has a private shower",
+      },
+      {
+        amenities: "pet-friendly (a separate pet fee applies for pets).",
       },
 
     ],
     roomSize: " Rooms vary in size from 250-450 sq. ft.",
     cabinImageSliderList: [
-      assets.IMAGE_OR_K1,
-      assets.IMAGE_OR_K2,
-      assets.IMAGE_OR_K3,
-      assets.IMAGE_OR_K4,
+      assets.IM_OR_C1,
+      assets.IM_OR_C2,
+      assets.IM_OR_C3,
+      assets.IM_OR_C4,
     ],
     linkPath: "https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846",
   },
@@ -316,6 +325,7 @@ const Cabins = () => {
                             <Typography variant='h2'>{cabin.title}</Typography>
                           </Box>
                           <Typography variant='h5'>{cabin.subtitle}</Typography>
+                          <Typography variant='body1'>{cabin.subdesc}</Typography>
 
                           <Typography variant='body1'><b>Room size :</b> {cabin.roomSize}</Typography>
                           <Typography variant='h6'>{cabin.roomAmenitiesTitle}</Typography>
