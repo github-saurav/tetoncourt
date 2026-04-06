@@ -200,7 +200,7 @@ When I’m on property, I enjoy personally welcoming guests. If you’d like to 
                                 <img src={assets.IMAGE_OS6} alt="Gallery 4" />
                             </figure>
                         </Box>
-                        <Typography variant='h4'>- <i>Carrying the Tradition Forward</i></Typography>
+                        <Typography variant='h4'><i>Carrying the Tradition Forward</i></Typography>
                         <Typography variant='body1'>
                         Teton Court isn’t a corporate chain. It’s an independent Wyoming motel owned by a family that believes places like this still matter.
 Our goal isn’t flash; it’s comfort, reliability, and a stay you can trust. Whether you’re exploring the Wind River Range, passing through on a long drive, or returning to Pinedale year after year, we’re honored to host you.

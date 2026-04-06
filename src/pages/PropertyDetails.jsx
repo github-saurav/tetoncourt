@@ -5,7 +5,7 @@ import CommonInnerBanner from '../components/CommonInnerBanner/CommonInnerBanner
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { assets } from '../json/assets'
-import { Container, Grid, List, ListItem } from '@mui/material'
+import { Container, Grid, List } from '@mui/material'
 import CustomButton from '../ui/CustomButton/CustomButton';
 // eslint-disable-next-line no-unused-vars
 import NewsLetter from '../components/NewsLetter/NewsLetter';
@@ -22,7 +22,7 @@ export const propDetailsFeatureData = [
         eachText: "✔ Minutes from Wind River Range trailheads",
       },
       {
-        eachText: "✔ - Easy access to Elkhart Park",
+        eachText: "✔ Easy access to Elkhart Park",
       },
       {
         eachText: "✔ Near Fremont Lake, Green River, and New Fork River",
@@ -71,7 +71,7 @@ export const propDetailsFeatureData = [
         eachText: "✔ The best available rate Real-time room availability",
       },
       {
-        eachText: "✔ - Direct communication for early check-in or trail timing",
+        eachText: "✔ Direct communication for early check-in or trail timing",
       },
       {
         eachText: "✔ Faster assistance with changes or last-minute stays",
@@ -86,34 +86,34 @@ export const propDetailsFeatureData = [
 
 export const propertyAmenities = [
   {
-    eachAmenities: "Complimentary Wi-Fi",
+    eachAmenities: "✔ Complimentary Wi-Fi",
   },
   {
-    eachAmenities: "Free on-site parking",
+    eachAmenities: "✔ Free on-site parking",
   },
   {
-    eachAmenities: "Evening laundry service (charged per load)",
+    eachAmenities: "✔ Evening laundry service (charged per load)",
   },
   {
-    eachAmenities: "Select pet-friendly rooms",
+    eachAmenities: "✔ Select pet-friendly rooms",
   },
   {
-    eachAmenities: "Walking access to downtown",
+    eachAmenities: "✔ Walking access to downtown",
   },
   {
-    eachAmenities: "Seasonal operation (mid-May through early October)",
+    eachAmenities: "✔ Seasonal operation (mid-May through early October)",
   },
   {
-    eachAmenities: "Comfortable and Clean",
+    eachAmenities: "✔ Comfortable and Clean",
   },
   {
-    eachAmenities: "Connect Locally",
+    eachAmenities: "✔ Connect Locally",
   },
   {
-    eachAmenities: "Affordable",
+    eachAmenities: "✔ Affordable",
   },
   {
-    eachAmenities: "Book with Us and Save",
+    eachAmenities: "✔ Book with Us and Save",
   },
 ]
 const TITLE = 'Teton Court Motel - Property Details';
@@ -223,9 +223,7 @@ const PropertyDetails = () => {
                 <List disablePadding className='propertyAmenitiesList'>
                   {
                     propertyAmenities.map((eachAmenities, index) => (
-                      <ListItem key={index}>
-                        {eachAmenities.eachAmenities}
-                      </ListItem>
+                      <Typography variant='body1' key={index}>{eachAmenities.eachAmenities}</Typography>
                     ))
                   }
                 </List>
@@ -250,8 +248,8 @@ const PropertyDetails = () => {
                   We operate during a short, high-demand season. Advance reservations are recommended during peak summer and CDT hiking windows. Last-minute travelers are always welcome — call us directly for fastest availability. Clear policies, fair pricing, and straightforward communication.
                 </Typography>
               </Box>
-              <CustomButton buttonColor="white" onClick={() => navigate('/terms-conditions')}>
-                SEE TERMS & CONDITIONS
+              <CustomButton buttonColor="white" onClick={() => navigate('/policies')}>
+                Policies
               </CustomButton>
 
             </Box>

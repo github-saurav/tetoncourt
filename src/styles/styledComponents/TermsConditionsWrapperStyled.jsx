@@ -5,6 +5,32 @@ export const TermsConditionsWrapperStyled = styled(Box)`
     .cmn_head{
         margin-bottom: 50px;
     }
+
+   .MuiAccordionSummary-content {
+    font-family: "Raleway", sans-serif;
+    }
+
+    .policyAccordion {
+    font-family: "Raleway", sans-serif;
+    }
+
+     .policyAccordion p {
+    font-family: "Raleway", sans-serif;
+    }
+
+    .policyAccordion h1,
+    .policyAccordion h2,
+    .policyAccordion h3,
+    .policyAccordion h4,
+    .policyAccordion h5,
+    .policyAccordion h6,
+    .policyAccordion p,
+    .policyAccordion b,
+    .policyAccordion span,
+    .policyAccordion li {
+    font-family: "Raleway", sans-serif;
+    }
+
     .MuiAccordion-root{
         margin-bottom: 30px !important;
         box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 16%);
