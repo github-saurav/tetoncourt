@@ -625,3 +625,69 @@ input[type="submit"]:hover {
 // 	left: .5em;
 // 	top: .3em;
 // }
+
+
+.bookingBar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #4f76a1;
+  padding: 10px 15px;
+  border: 3px solid #2c4e73;
+  flex-wrap: wrap;
+}
+
+.bookingItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
+}
+
+.bookingItem label {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.bookingItem input,
+.bookingItem select {
+  height: 32px;
+  padding: 4px 8px;
+  border: none;
+  outline: none;
+  min-width: 140px;
+}
+
+.bookingItem.small select {
+  min-width: 60px;
+}
+
+.bookingBtn {
+  height: 34px;
+  padding: 0 16px;
+  background: #2c4e73;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.bookingBtn:hover {
+  background: #1e3a5a;
+}
+
+@media (max-width: 768px) {
+  .bookingBar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .bookingItem {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .bookingBtn {
+    width: 100%;
+  }
+}
