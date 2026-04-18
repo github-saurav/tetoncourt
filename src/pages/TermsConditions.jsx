@@ -6,6 +6,8 @@ import Wrapper from '../layout/Wrapper/Wrapper'
 import { Accordion, AccordionDetails, AccordionSummary, Box, Container, List, ListItem, Typography } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Helmet, HelmetProvider } from 'react-helmet-async'
+import BookingForm from "../components/BookingForm";
+
 const TITLE = 'Teton Court Motel - Terms and Conditions';
 const TermsConditions = () => {
     const [expanded, setExpanded] = useState(false);
@@ -22,6 +24,8 @@ const TermsConditions = () => {
         </HelmetProvider>
         <TermsConditionsWrapperStyled style={{ background: `url(${assets.propertyDetailsBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
 <CommonInnerBanner innerBannerImage={assets.IMAGE_P1} innerBannerText="Additional Information" />
+        <BookingForm /> 
+
 <Box className="policy cmn_gap">
     <Container fixed>
         <Box className="cmn_head">

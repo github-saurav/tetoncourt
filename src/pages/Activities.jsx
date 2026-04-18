@@ -9,6 +9,7 @@ import { Box, Container, Grid, Typography } from '@mui/material'
 //import CustomButton from '../ui/CustomButton/CustomButton'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 //import { useNavigate } from 'react-router-dom'
+import BookingForm from "../components/BookingForm";
 
 export const activityData = [
   {
@@ -113,6 +114,8 @@ const Activities = () => {
       <ActivitiesWrapperStyled style={{ background: `url(${assets.activityBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
         <CommonInnerBanner innerBannerImage={assets.IMAG_LA1} innerBannerText="Things to Do in Pinedale, Wyoming" innerBannerContent="Your basecamp for the Wind River Range, lakes, wildlife, and real Wyoming nights Pinedale is small, friendly, and surrounded by big country. Whether you’re here for the Wind River Range, Fremont Lake, fishing, wildlife, or a quiet reset, this town delivers. Use the ideas below to build your perfect day,  then come back to a clean room and a quiet night at Teton Court." BannerbuttonText="Book Your Stay"
   BannerbuttonLink="/book-now"/>
+        <BookingForm /> 
+
         <Box className="activityWrap">
           {
             activityData.map((eachData, index) => (

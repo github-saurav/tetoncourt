@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Footer from '../Footer/Footer';
 import { Button, Container, Typography } from '@mui/material';
 import { primaryColors } from '../../mui-theme/_muiPalette';
+
 const Wrapper = ({ children }) => {
   const [showAnnouncementBanner, setShowAnnouncementBanner] = React.useState(true);
   const handleAnnouncementBanner = () => {

@@ -11,6 +11,7 @@ import CustomButton from '../ui/CustomButton/CustomButton';
 import NewsLetter from '../components/NewsLetter/NewsLetter';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { useNavigate } from 'react-router-dom';
+import BookingForm from "../components/BookingForm";
 
 export const propDetailsFeatureData = [
   {
@@ -128,7 +129,7 @@ const PropertyDetails = () => {
       </HelmetProvider>
       <PropertyDetailsWrapperStyled style={{ background: `url(${assets.propertyDetailsBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
         <CommonInnerBanner innerBannerImage={assets.IMAGE_YS1} innerBannerText="Property Details" />
-
+        <BookingForm /> 
         <Box className="motelInfo cmn_gap">
           <Container fixed>
             <Box className="cmn_head">

@@ -9,7 +9,7 @@ import CustomButton from '../ui/CustomButton/CustomButton'
 import NewsLetter from '../components/NewsLetter/NewsLetter'
 import CabinCommonImageSlider from '../components/CabinCommonImageSlider/CabinCommonImageSlider'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
-
+import BookingForm from "../components/BookingForm";
 
 
 const cabinData = [
@@ -306,7 +306,8 @@ const Cabins = () => {
       <CabinsWrapperStyled style={{ background: `url(${assets.cabinBg})`, backgroundRepeat: "repeat", backgroundSize: "auto", backgroundPosition: "50% 50%", backgroundAttachment: "fixed", }}>
         
         <CommonInnerBanner innerBannerImage={assets.IMAGE_OR1} innerBannerText="Our Rooms" />
-
+        <BookingForm /> 
+        
         <Box className="eachCabinWrap">
           {
             cabinData.map((cabin, index) => {
