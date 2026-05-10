@@ -13,7 +13,7 @@ const CommonInnerBanner = ({
 }) => {
   return (
     <CommonInnerBannerWrapperStyled>
-      <Box className="innerBanner">
+      <Box className={`innerBanner ${innerBannerContent ? 'innerBannerWithContent' : ''}`}>
         <Box className="container">
           <figure>
             <img src={innerBannerImage} alt="property details" />

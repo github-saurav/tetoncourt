@@ -13,18 +13,23 @@ background-color: ${primaryColors.white};
         padding: 35px 0 30px;
     }
     .footerTopRow{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 -15px;
+        display: grid;
+        grid-template-columns: 285px minmax(220px, 1fr) minmax(220px, 1fr) minmax(235px, 255px);
+        column-gap: 52px;
+        align-items: start;
         @media (max-width: 1199px) {
-            justify-content: space-between;
-            margin-bottom: -30px;
+            grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
+            gap: 30px 44px;
+            margin-bottom: 0;
+        }
+        @media (max-width: 899px) {
+            grid-template-columns: 1fr;
+            gap: 30px;
         }
         .footerTopCol {
-            padding: 0 15px;
-            flex: 0 0 auto;
+            padding: 0;
             @media (max-width: 1199px) {
-                margin-bottom: 30px;
+                width: auto;
             }
             @media (max-width: 599px) {
                 text-align: center;
@@ -36,38 +41,27 @@ background-color: ${primaryColors.white};
                 }
             }
             &.footerTopLogoCol{
-                width: 29%;
+                width: auto;
                 @media (max-width: 1199px) {
-                    width: 100%;
+                    grid-column: 1 / -1;
                     text-align: center;
                 }
                 
             }
             &.footerTopLocationContactCol{
-                width: 32%;
+                grid-column: span 2;
+                width: auto;
                 @media (max-width: 1199px) {
-                    width: calc(100% / 3);
+                    grid-column: auto;
                 }
-                @media (max-width: 599px) {
-                    width: 100%;
-                }
-            }
-            &.footerTopSitemapCol{
-                width: 15%;
-                @media (max-width: 1199px) {
-                    width: calc(100% / 3);
-                }
-                @media (max-width: 599px) {
-                    width: 100%;
+                @media (max-width: 899px) {
+                    grid-column: 1;
                 }
             }
             &.footerTopSocialCol{
-                width: 24%;
-                @media (max-width: 1199px) {
-                    width: calc(100% / 3);
-                }
-                @media (max-width: 599px) {
-                    width: 100%;
+                width: auto;
+                @media (max-width: 899px) {
+                    grid-column: 1;
                 }
             }
             .footerLogo{
@@ -78,6 +72,9 @@ background-color: ${primaryColors.white};
                 @media (max-width: 599px) {
                     width: 230px;
                 }
+            }
+            &.footerTopLogoCol .footerSocialList{
+                margin-top: 35px;
             }
             p{
                 color: ${primaryColors.black};
@@ -98,7 +95,31 @@ background-color: ${primaryColors.white};
                 }
 
             }
+            .footerAddressRow{
+                display: flex;
+                gap: 52px;
+
+                @media (max-width: 1199px) {
+                    gap: 36px;
+                }
+                @media (max-width: 599px) {
+                    flex-direction: column;
+                    gap: 0;
+                }
+            }
+            .footerAddressBlock{
+                flex: 1 1 0;
+                min-width: 0;
+            }
+            .footerSiteMapBlock{
+                margin-top: 24px;
+
+                @media (max-width: 599px) {
+                    margin-top: 20px;
+                }
+            }
             .footerConactLinkList{
+                margin-top: 3px;
                 li{
                     padding: 0;
                     margin-bottom: 7px;
@@ -125,8 +146,12 @@ background-color: ${primaryColors.white};
             }
             .footerSiteMapList{
                 padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px 24px;
                 li{
-                    margin-bottom: 7px;
+                    margin-bottom: 0;
+                    width: initial;
 
                     @media (max-width: 599px) {
                         justify-content: center;
@@ -172,8 +197,13 @@ background-color: ${primaryColors.white};
                 align-items: center;
                 margin: 0 -10px;
 
-                @media (max-width: 599px) {
+                @media (max-width: 1199px) {
                     justify-content: center;
+                    margin-left: -10px;
+                    margin-right: -10px;
+                }
+                @media (max-width: 599px) {
+                    margin-top: 25px;
                 }
                 li{
                     padding: 0 10px;
@@ -205,10 +235,13 @@ background-color: ${primaryColors.white};
     }
     .footerBotRow {
         @media (max-width: 1199px) {
+            flex-direction: column !important;
+            align-items: center;
+            gap: 10px;
             justify-content: center;
             .footerBotRight {
                 margin-left: 0;
-                margin-bottom: 10px;
+                margin-bottom: 0;
             }
             .footerBotLeft {
                 order: 1;
@@ -237,6 +270,12 @@ background-color: ${primaryColors.white};
                 font-size: 14px;
                 &:hover, &.active{
                     text-decoration: underline;
+                }
+            }
+            @media (max-width: 359px) {
+                font-size: 13px;
+                a{
+                    font-size: 13px;
                 }
             }
         }

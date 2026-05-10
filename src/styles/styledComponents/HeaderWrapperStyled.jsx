@@ -22,6 +22,9 @@ export const HeaderWrapperStyled = styled(Box)`
             .headerLogo{
                 width: 200px;
             }
+            .headerPhoneLink{
+                font-size: 13px;
+            }
             ul{
                 li{
                     a{
@@ -46,11 +49,47 @@ export const HeaderWrapperStyled = styled(Box)`
 .headerMenu{
     margin: 0 auto;
     width: 100%;
-    .headerLogo{
+    align-items: center;
+    justify-content: center;
+    .headerBrand{
         width: 250px;
         margin: 0 20px;
+        text-align: center;
+        flex: 0 0 auto;
+    }
+    .headerLogo{
+        width: 250px;
+        display: block;
         &::after{
             display: none;
+        }
+    }
+    .headerPhoneLink{
+        color: ${primaryColors.black};
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.1;
+        margin-top: 4px;
+        padding-bottom: 2px;
+        position: relative;
+
+        &::after{
+            position: absolute;
+            content: "";
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+            width: 0;
+            height: 1px;
+            background-color: ${primaryColors.black};
+            transition: 0.3s all ease;
+        }
+        &:hover{
+            color: ${primaryColors.black};
+            &::after{
+                width: 100%;
+            }
         }
     }
     ul{
@@ -105,11 +144,32 @@ export const HeaderWrapperStyled = styled(Box)`
         display: none;
     }
 
-    .headerLogo{
+    .headerBrand{
         width: 180px;
+        text-align: center;
 
         @media (max-width: 599px) {
             width: 150px;
+        }
+    }
+    .headerLogo{
+        width: 100%;
+        display: block;
+
+        @media (max-width: 599px) {
+            width: 100%;
+        }
+    }
+    .headerPhoneLink{
+        color: ${primaryColors.black};
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1.1;
+        margin-top: 2px;
+
+        @media (max-width: 599px) {
+            font-size: 12px;
         }
     }
     .headerMenuIcon{

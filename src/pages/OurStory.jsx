@@ -31,8 +31,7 @@ const OurStory = () => {
                     </figure>
              
                         <Typography variant='body1'>
-                           Teton Court Motel – Pinedale, Wyoming
-In Pinedale, the wind still carries the feeling of the old West. Mornings break quietly, the peaks of the Wind River Range catch first light, and life moves with a steady independence.
+                           In Pinedale, the wind still carries the feeling of the old West. Mornings break quietly, the peaks of the Wind River Range catch first light, and life moves with a steady independence.
 Teton Court Motel has stood on this ground for generations.    
                         </Typography> 
 

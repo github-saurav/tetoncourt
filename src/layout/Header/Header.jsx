@@ -117,7 +117,10 @@ const Header = () => {
         <Container fixed>
           <Toolbar>
             <Box className="mobileHeaderMenu">
-              <NavLink className={(navData) => (navData.isActive ? "active headerLogo" : 'headerLogo')} to="/" ><img src={assets.logo} alt="header logo" /></NavLink >
+              <Box className="headerBrand">
+                <NavLink className={(navData) => (navData.isActive ? "active headerLogo" : 'headerLogo')} to="/" ><img src={assets.logo} alt="header logo" /></NavLink >
+                <Link className="headerPhoneLink" to="tel:307-367-3367">307-367-3367</Link>
+              </Box>
               <IconButton
                 color="inherit"
                 aria-label="open drawer"
@@ -144,7 +147,10 @@ const Header = () => {
                 <ListItem><NavLink className={(navData) => (navData.isActive ? "active" : '')} to="/our-story">Our Story</NavLink ></ListItem>
               </List>
 
-              <NavLink className={(navData) => (navData.isActive ? "active headerLogo" : 'headerLogo')} to="/" ><img src={assets.logo} alt="header logo" /></NavLink >
+              <Box className="headerBrand">
+                <NavLink className={(navData) => (navData.isActive ? "active headerLogo" : 'headerLogo')} to="/" ><img src={assets.logo} alt="header logo" /></NavLink >
+                <Link className="headerPhoneLink" to="tel:307-367-3367">307-367-3367</Link>
+              </Box>
               <List className='right_nav '>
                 <ListItem><NavLink className={(navData) => (navData.isActive ? "active" : '')} to="/local-adventures">Local Adventures</NavLink ></ListItem>
                 <ListItem><NavLink className={(navData) => (navData.isActive ? "active" : '')} to="/policies">Policies</NavLink ></ListItem>

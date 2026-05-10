@@ -72,6 +72,7 @@ const BookingForm = () => {
     }, []);
   return (
     <form
+      className="innerBookingForm"
       id="resnexus-widget"
       name="resnexus-widget"
       action="https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846"

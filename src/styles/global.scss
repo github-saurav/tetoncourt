@@ -28,13 +28,13 @@
     overflow-x: hidden;
     font-weight: 400;
     color: #000;
-    padding-top: 110px;
+    padding-top: 136px;
 
     @media (max-width: 1199px) {
-      padding-top: 79px;
+      padding-top: 116px;
     }
     @media (max-width: 599px) {
-      padding-top: 71px;
+      padding-top: 98px;
     }
 
   }
@@ -626,30 +626,39 @@ input[type="submit"]:hover {
 // 	top: .3em;
 // }
 
-.bookingBar {
-  display: flex;
+.innerBookingForm {
+  width: 100%;
+}
+
+.innerBookingForm .bookingBar {
+  display: grid;
+  grid-template-columns: max-content max-content max-content minmax(250px, 300px) max-content;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   background: #4f76a1;
   padding: 10px 15px;
   border: 3px solid #2c4e73;
-  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
 }
 
-.bookingItem {
+.innerBookingForm .bookingItem {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   color: #fff;
+  min-width: 0;
 }
 
-.bookingItem label {
+.innerBookingForm .bookingItem label {
   font-size: 14px;
   white-space: nowrap;
 }
 
-.bookingItem input,
-.bookingItem select {
+.innerBookingForm .bookingItem input,
+.innerBookingForm .bookingItem select {
   height: 32px;
   padding: 4px 8px;
   border: none;
@@ -657,11 +666,11 @@ input[type="submit"]:hover {
   min-width: 140px;
 }
 
-.bookingItem.small select {
+.innerBookingForm .bookingItem.small select {
   min-width: 60px;
 }
 
-.bookingBtn {
+.innerBookingForm .bookingBtn {
   height: 34px;
   padding: 0 16px;
   background: #2c4e73;
@@ -671,25 +680,69 @@ input[type="submit"]:hover {
   white-space: nowrap;
 }
 
-.bookingBtn:hover {
+.innerBookingForm .bookingBtn:hover {
   background: #1e3a5a;
 }
 
+@media (max-width: 1199px) {
+  .innerBookingForm .bookingBar {
+    grid-template-columns: minmax(300px, max-content) minmax(360px, max-content);
+    gap: 10px 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
+  .innerBookingForm .bookingItem:nth-child(3),
+  .innerBookingForm .bookingItem:nth-child(4),
+  .innerBookingForm .bookingBtn {
+    justify-self: center;
+  }
+
+  .innerBookingForm .bookingBtn {
+    grid-column: 1 / -1;
+    min-width: 150px;
+  }
+}
+
+@media (max-width: 899px) {
+  .innerBookingForm .bookingBar {
+    grid-template-columns: minmax(0, 520px);
+  }
+}
 
 @media (max-width: 768px) {
-  .bookingBar {
-    flex-direction: column;
-    align-items: stretch;
+  .innerBookingForm .bookingBar {
+    justify-content: center;
   }
 
-  .bookingItem {
-    justify-content: space-between;
+  .innerBookingForm .bookingItem {
+    display: grid;
+    grid-template-columns: 115px minmax(0, 1fr);
+    justify-content: initial;
+    align-items: center;
     width: 100%;
   }
 
-  .bookingBtn {
+  .innerBookingForm .bookingItem input,
+  .innerBookingForm .bookingItem select {
+    min-width: 0;
     width: 100%;
+  }
+
+  .innerBookingForm .bookingBtn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .innerBookingForm .bookingBar {
+    padding: 10px 12px;
+  }
+
+  .innerBookingForm .bookingItem {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    text-align: center;
   }
 }
 

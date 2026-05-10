@@ -51,59 +51,6 @@ const Footer = () => {
               <Link to="/" className='footerLogo' onClick={scrollToTop}>
                 <img src={assets.logo} alt="header logo" />
               </Link>
-            </Box>
-            <Box className="footerTopCol footerTopColPadding footerTopLocationContactCol">
-              <Typography variant='body1' className="footerTitle">OUR LOCATION</Typography>
-              <Typography variant='body1'>
-                <b>Physical Address:</b>
-                <br />
-                (UPS & FedEx for all gear and packages)
-              </Typography>
-              <Typography variant='body1' className='footerLocationDetails'>
-                Teton Court Motel <br />
-                123 E Magnolia Street <br />
-                Pinedale, WY 82941
-              </Typography>
-              <Typography variant='body1'>
-                <b>Mailing Address:</b>
-                <br />
-                (USPS mail only, no packages)
-              </Typography>
-              <Typography variant='body1'>
-                Teton Court Motel <br />
-                PO Box 582 <br />
-                Pinedale, WY 82941
-              </Typography>
-              <List disablePadding className='footerConactLinkList'>
-                <ListItem>
-                  <Link to="tel:(307) 367-3367"><i><CallIcon /></i> (307) 367-3367 (Call or Text)</Link>
-                </ListItem>
-                <ListItem>
-                  <Link to="mailto:res@tetoncourt.com"><i><EmailIcon /></i> res@tetoncourt.com</Link>
-                </ListItem>
-              </List>
-            </Box>
-            <Box className="footerTopCol footerTopColPadding footerTopSitemapCol">
-              <Typography variant='body1' className="footerTitle">SITE MAP</Typography>
-              <List disablePadding className='footerSiteMapList'>
-                {
-                  foooterSiteMaop.map((item, index) => {
-                    return (
-                      <ListItem key={index}>
-                        <NavLink onClick={scrollToTop} className={(navData) => (navData.isActive ? "active" : 'none')} to={item.path}>{item.name}</NavLink>
-                      </ListItem>
-                    )
-                  })
-                }
-              </List>
-            </Box>
-            <Box className="footerTopCol footerTopColPadding footerTopSocialCol">
-              <Typography variant='body1' className="footerTitle">HOURS</Typography>
-              <Typography variant='body1'>Our reservation and front desk team are available daily in the summer season from 9 am to 9 pm MDT.  Best time to call is 4pm to 9pm, texting is welcome. </Typography>
-              <CustomButton buttonColor='white' className='footerBookBtn' onClick={() => window.open('https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846', '_blank')}>
-              BOOK A ROOM
-              </CustomButton>
-
               <List className='footerSocialList'>
                 <ListItem disablePadding>
                   <Link to="#"><FacebookIcon /></Link>
@@ -113,6 +60,63 @@ const Footer = () => {
                 </ListItem>
                 <ListItem disablePadding>
                   <Link to="#"><TwitterIcon /></Link>
+                </ListItem>
+              </List>
+            </Box>
+            <Box className="footerTopCol footerTopColPadding footerTopLocationContactCol">
+              <Box className="footerAddressRow">
+                <Box className="footerAddressBlock">
+                  <Typography variant='body1'>
+                    <b>Physical Address:</b>
+                    <br />
+                    (UPS & FedEx for all gear and packages)
+                  </Typography>
+                  <Typography variant='body1' className='footerLocationDetails'>
+                    Teton Court Motel <br />
+                    123 E Magnolia Street <br />
+                    Pinedale, WY 82941
+                  </Typography>
+                </Box>
+                <Box className="footerAddressBlock">
+                  <Typography variant='body1'>
+                    <b>Mailing Address:</b>
+                    <br />
+                    (USPS mail only, no packages)
+                  </Typography>
+                  <Typography variant='body1'>
+                    Teton Court Motel <br />
+                    PO Box 582 <br />
+                    Pinedale, WY 82941
+                  </Typography>
+                </Box>
+              </Box>
+              <Box className="footerSiteMapBlock">
+                <Typography variant='body1' className="footerTitle">SITE MAP</Typography>
+                <List disablePadding className='footerSiteMapList'>
+                  {
+                    foooterSiteMaop.map((item, index) => {
+                      return (
+                        <ListItem key={index}>
+                          <NavLink onClick={scrollToTop} className={(navData) => (navData.isActive ? "active" : 'none')} to={item.path}>{item.name}</NavLink>
+                        </ListItem>
+                      )
+                    })
+                  }
+                </List>
+              </Box>
+            </Box>
+            <Box className="footerTopCol footerTopColPadding footerTopSocialCol">
+              <Typography variant='body1' className="footerTitle">CONTACT US</Typography>
+              <Typography variant='body1'>Our Front Desk is available daily in the summer season from <b>9 AM - 9 PM MDT.</b> Best time to call is <b>4 PM - 9 PM.</b> Texting is always welcome.</Typography>
+              <CustomButton buttonColor='white' className='footerBookBtn' onClick={() => window.open('https://resnexus.com/resnexus/reservations/book/ACC0A5D5-05DA-442A-9B9B-A96644E4C846', '_blank')}>
+              BOOK A ROOM
+              </CustomButton>
+              <List disablePadding className='footerConactLinkList'>
+                <ListItem>
+                  <Link to="tel:(307) 367-3367"><i><CallIcon /></i> (307) 367-3367 (Call or Text)</Link>
+                </ListItem>
+                <ListItem>
+                  <Link to="mailto:res@tetoncourt.com"><i><EmailIcon /></i> res@tetoncourt.com</Link>
                 </ListItem>
               </List>
             </Box>
