@@ -21,7 +21,8 @@ const HomeContact = () => {
                         <Typography variant='h2'>Contact Us</Typography>
                     </Box>
                     <Typography variant='body1'>
-                        Trail timing, pets, late arrival? Let’s sort it out before you arrive. 
+                        Trail timing? Pets? Late arrival?<br />
+                        Let’s sort it out before you arrive.
                     </Typography>
                     <CustomButton onClick={() => navigate("/contact-us")}>
                         CONNECT WITH US

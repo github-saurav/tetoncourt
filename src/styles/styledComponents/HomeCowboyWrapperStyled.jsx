@@ -12,6 +12,21 @@ export const HomeCowboyWrapperStyled = styled(Box)`
         color: ${primaryColors.white};
         line-height: 2;
     }
+    h2{
+        color: ${primaryColors.white};
+        font-size: 36px;
+        line-height: 1.15;
+        margin-bottom: 18px;
+        white-space: nowrap;
+
+        @media (max-width: 1199px) {
+            font-size: 32px;
+        }
+        @media (max-width: 899px) {
+            font-size: 30px;
+            white-space: normal;
+        }
+    }
     .homeCowboyContent{
         height: 100%;
         display: flex;

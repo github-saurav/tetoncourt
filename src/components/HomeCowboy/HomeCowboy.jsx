@@ -16,8 +16,11 @@ const HomeCowboy = () => {
                     </Grid>
                     <Grid item md={6} xs={12}>
                         <Box className="homeCowboyContent">
+                            <Typography variant="h2">
+                                Where the West Is Still Wide Open.
+                            </Typography>
                             <Typography variant="body1">
-                                Where the West Is Still Wide Open From trailheads to rodeos, from fishing rivers to alpine lakes,  this is country built for movement. We offer a comfortable place to rest between adventures.
+                                From trailheads to rodeos, from fishing rivers to alpine lakes, this is country built for movement. We offer a comfortable place to rest between adventures.
                             </Typography>
                         </Box>
                     </Grid>
